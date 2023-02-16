@@ -1,0 +1,149 @@
+<theme>
+    <colorScheme name="gold">
+        <variables>
+            <colorSchemeName>gold</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <sysColor>664400</sysColor>
+            <systextColor>DDAA00</systextColor>
+            <sysmenuColor>DDAA00</sysmenuColor>
+            <textColor>111111</textColor>
+            <primaryColor>DDAA00</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>664400</selectgameColor>
+            <gamegridColor>DDAA00</gamegridColor>
+            <selectsysColor>DDAA00</selectsysColor>
+            <helpColor>AA8800</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="limited">
+        <variables>
+            <colorSchemeName>limited</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <sysColor>cec9cc</sysColor>            
+            <systextColor>111111</systextColor>
+            <sysmenuColor>DDAA00</sysmenuColor>
+            <textColor>111111</textColor>
+            <primaryColor>DDAA00</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>664400</selectgameColor>
+            <gamegridColor>DDAA00</gamegridColor>
+            <selectsysColor>DDAA00</selectsysColor>
+            <helpColor>111111</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="hyst">
+        <variables>
+            <colorSchemeName>hyst</colorSchemeName>
+            <backgroundColor>1c4a26</backgroundColor>
+            <sysColor>b19b4c</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>ce9b58</sysmenuColor>
+            <primaryColor>ce9b58</primaryColor>
+            <secondaryColor>1c4a26</secondaryColor>
+            <selectgameColor>1c4a26</selectgameColor>
+            <gamegridColor>ce9b58</gamegridColor>
+            <selectsysColor>ce9b58</selectsysColor>  
+            <helpColor>111111</helpColor>
+        </variables>
+    </colorScheme>
+    
+    <colorScheme name="elep">
+        <variables>
+            <colorSchemeName>elep</colorSchemeName>
+            <backgroundColor>151515</backgroundColor>
+            <sysColor>c8c9c7</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>270e59</sysmenuColor>
+            <primaryColor>8800c7</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>240b3b</selectgameColor>
+            <gamegridColor>52307c</gamegridColor>
+            <selectsysColor>8800c7</selectsysColor>  
+            <helpColor>111111</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="snes">
+        <variables>
+            <colorSchemeName>snes</colorSchemeName>
+            <backgroundColor>404040</backgroundColor>
+            <sysColor>FFFFFF</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>111111</sysmenuColor>
+            <primaryColor>a0a0a0</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>404040</selectgameColor>
+            <gamegridColor>808080</gamegridColor>
+            <selectsysColor>f4000e</selectsysColor>  
+            <helpColor>404040</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="usnesa">
+        <variables>
+            <colorSchemeName>usnesa</colorSchemeName>
+            <backgroundColor>cec9cc</backgroundColor>
+            <sysColor>FFFFFF</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>111111</sysmenuColor>
+            <primaryColor>4f43ae</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>b5b6e4</selectgameColor>
+            <gamegridColor>908a99</gamegridColor>
+            <selectsysColor>4f43ae</selectsysColor>  
+            <helpColor>404040</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="nes">
+        <variables>
+            <colorSchemeName>nes</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <sysColor>FFFFFF</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>111111</sysmenuColor>
+            <primaryColor>808080</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>202020</selectgameColor>
+            <gamegridColor>808080</gamegridColor>
+            <selectsysColor>f4000e</selectsysColor>  
+            <helpColor>404040</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="mario">
+        <variables>
+            <colorSchemeName>grey</colorSchemeName>
+            <backgroundColor>fe0002</backgroundColor>
+            <sysColor>0001FC</sysColor>
+            <systextColor>fe0002</systextColor>
+            <sysmenuColor>6a0400</sysmenuColor>
+            <primaryColor>FFd987</primaryColor>
+            <secondaryColor>FFd987</secondaryColor>
+            <selectgameColor>fe0002</selectgameColor>
+            <gamegridColor>0001fc</gamegridColor>
+            <selectsysColor>0001fc</selectsysColor>  
+            <helpColor>fe0002</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="fami">
+        <variables>
+            <colorSchemeName>fami</colorSchemeName>
+            <backgroundColor>561420</backgroundColor>
+            <sysColor>c59a6f</sysColor>
+            <systextColor>561420</systextColor>
+            <sysmenuColor>ce9b58</sysmenuColor>
+            <primaryColor>c59a6f</primaryColor>
+            <secondaryColor>561420</secondaryColor>
+            <selectgameColor>561420</selectgameColor>
+            <gamegridColor>c59a6f</gamegridColor>
+            <selectsysColor>c59a6f</selectsysColor>  
+            <helpColor>561420</helpColor>
+        </variables>
+    </colorScheme>
+
+    
+</theme>
