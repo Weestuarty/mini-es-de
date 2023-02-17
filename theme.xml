@@ -93,6 +93,13 @@
                 <colorEnd>${backgroundColor}</colorEnd>
                 <zIndex>0</zIndex>
             </image>
+            <image name="scanline">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>1.1 1</size>
+                <path>./core/images/scanline.png</path>
+                <zIndex>45</zIndex>
+            </image>
 
             <image name="ESDE">
                 <pos>0.32 .02</pos>
@@ -255,9 +262,7 @@
                 <maxSize>0.4 0.35</maxSize>
                 <origin>0.5 0.5</origin>
                 <path>./core/consoles/${system.fullName}.png</path>
-                <gameselectorEntry>1</gameselectorEntry>
-                <brightness>-0.35</brightness>
-                <zIndex>75</zIndex>
+                <zIndex>42</zIndex>
             </image>
             <text name="gamecount">
                 <pos>0.61 0.3</pos>
