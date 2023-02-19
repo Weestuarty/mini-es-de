@@ -30,6 +30,10 @@
         <label>Sega</label>
     </colorScheme>
 
+    <colorScheme name="master">
+        <label>Master System</label>
+    </colorScheme>
+
     <colorScheme name="hyst">
         <label>Hystoria</label>
     </colorScheme>

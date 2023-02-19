@@ -1,26 +1,39 @@
-# Griddlemethis-DE for EmulationStation Desktop Edition
+# ESDEmini for EmulationStation Desktop Edition
 
-Griddlemethis-DE is a theme set for ES-DE that supports all systems as well as the latest application features.
+ESDEmini is a theme set for ES-DE that supports all systems as well as the latest application features.
 
 ![systems](sys.png)
 ![games](game.png)
 
 The following options are included:
 
-2 variants:
+12 variants:
 
-- Grid with videos
-- Grid without videos
+- 6 console Types
+	- SNES (EUR)
+	- SNES (US)
+	- NES
+	- Mega Drive
+	- Master System
+	- Playstation
 
-7 color schemes:
+- 2 View type per console
+	- Grid View
+	- Carousel View
 
-- Chilled
-- Gold
-- Greyscale
-- Retro
-- Purple Rain
-- Primary
-- Stay Classy
+11 color schemes:
+
+- SNES
+- USNESA
+- NES
+- FAMICON
+- SEGA
+- MASTER SYSTEM
+- HYSTORIA
+- LIMITED EDITION
+- ITS A MARIO
+- GOLD
+- MRS LEphant
 
 
 4 aspect ratios:

@@ -16,6 +16,22 @@
             <helpColor>12457c</helpColor>
         </variables>
     </colorScheme>
+
+    <colorScheme name="master">
+        <variables>
+            <colorSchemeName>nes</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <sysColor>FFFFFF</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>111111</sysmenuColor>
+            <primaryColor>A50000</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <selectgameColor>202020</selectgameColor>
+            <gamegridColor>DDDDDD</gamegridColor>
+            <selectsysColor>a50000</selectsysColor>  
+            <helpColor>404040</helpColor>
+        </variables>
+    </colorScheme>
    
     <colorScheme name="gold">
         <variables>
