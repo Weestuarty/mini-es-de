@@ -873,15 +873,15 @@
                 <zIndex>26</zIndex>
             </image>
             <image name="below">
-                <pos>0.33 0.81</pos>
-                <size>0.66 0.08</size>
+                <pos>0.33 0.79</pos>
+                <size>0.66 0.12</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
             
             <text name="mdplay">
-                <pos>0.925 0.825</pos>
+                <pos>0.935 0.825</pos>
                 <origin>.50 0</origin>
                 <size>0.05 0</size>
                 <metadata>players</metadata>
@@ -895,7 +895,7 @@
                 <zIndex>29</zIndex>
             </text>
             <text name="mdlbplay">
-                <pos>0.79 0.825</pos>
+                <pos>0.8 0.825</pos>
                 <origin>.50 0</origin>
                 <size>0.2 0</size>
                 <text>Players:</text>
@@ -951,17 +951,18 @@
                 <zIndex>29</zIndex>
             </video>
             <badges name="all">
-                <pos>0.34 0.81</pos>
-                <size>0.64 .09</size>
+                <pos>0.46 0.8125</pos>
+                <size>0.4 .08</size>
                 <direction>row</direction>
                 <lines>1</lines>
                 <itemsPerLine>7</itemsPerLine>
+                <itemMargin>0.001 0.001</itemMargin>
                 <horizontalAlignment>center</horizontalAlignment>
                 <slots>controller, completed, favorite, altemulator, kidgame, collection, folder</slots>
-                <controllerPos>0.51 0.415</controllerPos>
+                <controllerPos>0.5 0.43</controllerPos>
                 <controllerSize>0.85</controllerSize>
-                <folderLinkSize>0.85 0.9</folderLinkSize>
-                <folderLinkPos>0.47 0.48</folderLinkPos>
+                <folderLinkSize>0.5 0.3</folderLinkSize>
+                <folderLinkPos>0.5 0.44</folderLinkPos>
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
@@ -974,9 +975,28 @@
                 <customBadgeIcon badge="completed">./core/badges/complete.png</customBadgeIcon>
                 <customBadgeIcon badge="controller">./core/badges/control.png</customBadgeIcon>
             </badges>
+            <badges name="broken">
+                <pos>0.681 0.5975</pos>
+                <size>0.1 .09</size>
+                <direction>row</direction>
+                <lines>1</lines>
+                <itemsPerLine>1</itemsPerLine>
+                <itemMargin>0.001 0.001</itemMargin>
+                <horizontalAlignment>center</horizontalAlignment>
+                <slots>broken</slots>
+                <controllerPos>0.5 0.43</controllerPos>
+                <controllerSize>0.85</controllerSize>
+                <folderLinkSize>0.85 0.9</folderLinkSize>
+                <folderLinkPos>0.47 0.48</folderLinkPos>
+                <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
+                <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
+                <badgeIconColor>${primaryColor}</badgeIconColor>
+               
+                <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
+            </badges>
 
             <rating name="rating">
-                <pos>0.36 0.82</pos>
+                <pos>0.35 0.82</pos>
                 <size>0.07 0.06</size>
                 <interpolation>nearest</interpolation>
                 <color>${primaryColor}</color>
@@ -1278,7 +1298,7 @@
                 <origin>0 0</origin>
             </text>
             <video name="md_video">
-                <pos>0.5 0.33</pos>
+                <pos>0.53 0.33</pos>
                 <size>0.19 0.28</size>
                 <origin>0.5 0.5</origin>
                 <imageType>titlescreen</imageType>
@@ -1290,7 +1310,7 @@
                 <zIndex>29</zIndex>
             </video>
             <image name="disp3">
-                <pos>0.495 0.33</pos>
+                <pos>0.525 0.33</pos>
                 <origin>0.5 0.5</origin>
                 <size>0.2 0.3075</size>
                 <path>./core/images/frame.svg</path>
@@ -1298,7 +1318,7 @@
                 <zIndex>30</zIndex>
             </image>
             <image name="disp4">
-                <pos>0.4955 0.33</pos>
+                <pos>0.525 0.33</pos>
                 <origin>0.5 0.5</origin>
                 <size>0.21 0.316</size>
                 <path>./core/images/frame.svg</path>
@@ -1306,7 +1326,7 @@
                 <zIndex>30</zIndex>
             </image>
             <rating name="rating">
-                <pos>0.62 0.2</pos>
+                <pos>0.64 0.2</pos>
                 <size>0.04 0.05</size>
                 <interpolation>nearest</interpolation>
                 <color>${primaryColor}</color>
@@ -1314,7 +1334,7 @@
                 <unfilledPath>./core/images/rating_empty.svg</unfilledPath>
             </rating>
             <text name="sourceinfo2">
-                <size>0.18 0.11</size>
+                <size>0.17 0.11</size>
                 <metadata>name</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <systemNameSuffix>false</systemNameSuffix>
@@ -1324,11 +1344,11 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.62 0.25</pos>
+                <pos>0.64 0.25</pos>
                 <origin>0 0</origin>
             </text>
             <text name="collectionsSystemName">
-                <size>0.18 0.08</size>
+                <size>0.17 0.08</size>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
                 <fontSize>0.025</fontSize>
@@ -1336,11 +1356,11 @@
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.62 0.36</pos>
+                <pos>0.64 0.36</pos>
                 <origin>0 0</origin>
             </text>
             <text name="mdplay">
-                <pos>0.67 0.43</pos>
+                <pos>0.69 0.43</pos>
                 <origin>.0 0</origin>
                 <size>0.05 0</size>
                 <metadata>players</metadata>
@@ -1354,9 +1374,9 @@
                 <zIndex>29</zIndex>
             </text>
             <text name="mdlbplay">
-                <pos>0.62 0.43</pos>
+                <pos>0.64 0.43</pos>
                 <origin>.0 0</origin>
-                <size>0.1 0</size>
+                <size>0.07 0</size>
                 <text>Players:</text>
                 <defaultValue>Who Knows?</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
@@ -1368,17 +1388,18 @@
                 <zIndex>29</zIndex>
             </text>
             <badges name="all">
-                <pos>0.28 0.17</pos>
-                <size>0.15 .35</size>
+                <pos>0.31 0.17</pos>
+                <size>0.12 .32</size>
                 <direction>column</direction>
                 <lines>2</lines>
                 <itemsPerLine>4</itemsPerLine>
+                <itemMargin>0.001 0.001</itemMargin>
                 <horizontalAlignment>center</horizontalAlignment>
                 <slots>controller, completed, favorite, altemulator, kidgame, collection, folder</slots>
-                <controllerPos>0.51 0.415</controllerPos>
+                <controllerPos>0.5 0.43</controllerPos>
                 <controllerSize>0.85</controllerSize>
-                <folderLinkSize>0.85 0.9</folderLinkSize>
-                <folderLinkPos>0.47 0.48</folderLinkPos>
+                <folderLinkSize>0.5 0.3</folderLinkSize>
+                <folderLinkPos>0.5 0.44</folderLinkPos>
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
@@ -1390,6 +1411,25 @@
                 <customBadgeIcon badge="favorite">./core/badges/fave.png</customBadgeIcon>
                 <customBadgeIcon badge="completed">./core/badges/complete.png</customBadgeIcon>
                 <customBadgeIcon badge="controller">./core/badges/control.png</customBadgeIcon>
+            </badges>
+            <badges name="broken">
+                <pos>0.54 0.375</pos>
+                <size>0.1 .1</size>
+                <direction>column</direction>
+                <lines>1</lines>
+                <itemsPerLine>1</itemsPerLine>
+                <itemMargin>0.001 0.001</itemMargin>
+                <horizontalAlignment>center</horizontalAlignment>
+                <slots>broken</slots>
+                <controllerPos>0.5 0.43</controllerPos>
+                <controllerSize>0.85</controllerSize>
+                <folderLinkSize>0.85 0.9</folderLinkSize>
+                <folderLinkPos>0.47 0.48</folderLinkPos>
+                <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
+                <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
+                <badgeIconColor>${primaryColor}</badgeIconColor>
+                
+                <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
             </badges>
             <gamelistinfo name="info">
                 <pos>0.75 0.09</pos>

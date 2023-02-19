@@ -72,6 +72,12 @@
                 </grid>
                 </view>
                 <view name="gamelist">
+        
+                    <badges name="broken">
+                    <pos>0.562 0.395</pos>
+                    <size>0.075 .075</size>
+                </badges>
+        
                     <text name="sourceinfo">
                         <size>0.35 0.04</size>
                         <metadata>systemFullname</metadata>

@@ -16,7 +16,12 @@
                 <gameselectorEntry>1</gameselectorEntry>
             </image>
         </view>
-    
+    <view name="gamelist">
+        <badges name="broken">
+            <pos>0.678 0.60</pos>
+            <size>0.1 .09</size>
+            </badges>
+    </view>
         </variant>
         <variant name="all">
             <view name="system, gamelist">

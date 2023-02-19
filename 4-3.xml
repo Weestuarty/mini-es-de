@@ -84,6 +84,7 @@
                 <iconColor>${helpColor}</iconColor>
                 <fontSize>0.014</fontSize>
             </helpsystem>
+            
         </view>
     </variant>
     <variant name="Snesgrid, Nesgrid, Snes2grid,megagrid,psxgrid,mastergrid">
@@ -153,13 +154,17 @@
                 <zIndex>29</zIndex>
             </text>
             <rating name="rating">
-                <pos>0.345 0.825</pos>
-                <size>0.07 0.05</size>
+                <pos>0.345 0.83</pos>
+                <size>0.05 0.04</size>
                 <interpolation>nearest</interpolation>
                 <color>${primaryColor}</color>
                 <filledPath>./core/images/rating_filled.svg</filledPath>
                 <unfilledPath>./core/images/rating_empty.svg</unfilledPath>
             </rating>
+            <badges name="broken">
+                <pos>0.691 0.615</pos>
+                <size>0.075 .075</size>
+            </badges>
         
             <gamelistinfo name="info">
                 <pos>0.92 0.1025</pos>
@@ -252,9 +257,12 @@
                 <size>0.07 0.04</size>
             </rating>
             <badges name="all">
-                <pos>0.355 0.34</pos>
-                <origin>0.5 0.5</origin>
-                <size>0.075 .34</size>
+                <pos>0.32 0.18</pos>
+                <size>0.1 .32</size>
+            </badges>
+            <badges name="broken">
+                <pos>0.555 0.40</pos>
+                <size>0.075 .075</size>
             </badges>
             <text name="sourceinfo">
                 <size>0.37 0.05</size>
