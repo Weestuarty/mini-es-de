@@ -73,7 +73,7 @@
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
                 <fontSize>0.018</fontSize>
-            </helpsystem>            
+            </helpsystem>
         </view>
         <view name="gamelist">
             <helpsystem name="help">
@@ -84,7 +84,7 @@
                 <iconColor>${helpColor}</iconColor>
                 <fontSize>0.014</fontSize>
             </helpsystem>
-            
+
         </view>
     </variant>
     <variant name="Snesgrid, Nesgrid, Snes2grid,megagrid,psxgrid,mastergrid">
@@ -165,7 +165,7 @@
                 <pos>0.691 0.615</pos>
                 <size>0.075 .075</size>
             </badges>
-        
+
             <gamelistinfo name="info">
                 <pos>0.92 0.1025</pos>
                 <origin>0.5 0</origin>
@@ -302,8 +302,8 @@
     </variant>
     <variant name="mega,megagrid">
         <view name="system, gamelist">
-            
-            
+
+
             <helpsystem name="help">
                 <pos>.65 0.975</pos>
                 <origin>1 1</origin>
@@ -319,13 +319,13 @@
         <view name="system, gamelist">
             <helpsystem name="help">
                 <pos>.7 0.975</pos>
-                
+
             </helpsystem>
         </view>
     </variant>
     <variant name="master,mastergrid">
         <view name="system, gamelist">
-                        
+
             <helpsystem name="help">
                 <pos>.65 0.945</pos>
                 <origin>1 1</origin>

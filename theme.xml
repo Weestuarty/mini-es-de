@@ -191,9 +191,6 @@
                 <zIndex>45</zIndex>
             </image>
 
-            
-            
-
 
             <image name="consolec">
                 <pos>0.75 0.55</pos>
@@ -412,7 +409,7 @@
         </view>
     </variant>
     <variant name="mega,megagrid">
-        <view name="system, gamelist">            
+        <view name="system, gamelist">
             <helpsystem name="help">
                 <pos>.65 0.975</pos>
                 <origin>1 1</origin>
@@ -424,7 +421,7 @@
         </view>
     </variant>
     <variant name="master,mastergrid">
-        <view name="system, gamelist">           
+        <view name="system, gamelist">
             <helpsystem name="help">
                 <pos>.65 0.945</pos>
                 <origin>1 1</origin>
@@ -443,7 +440,7 @@
             </helpsystem>
         </view>
     </variant>
-   
+
 
     <variant name="Snes, Snes2, Nes, mega, psx,master">
         <view name="system">
@@ -637,7 +634,7 @@
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
-            
+
             <text name="game">
                 <pos>0.025 0.3525</pos>
                 <size>0.29 0.036</size>
@@ -657,7 +654,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="description1">
                 <size>0.18 0.55</size>
                 <metadata>description</metadata>
@@ -688,7 +685,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <image name="meta3">
                 <pos>0.79 0.27</pos>
                 <size>0.19 0.15</size>
@@ -850,7 +847,7 @@
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
             </text>
-            
+
             <image name="disp">
                 <pos>0.555 0.395</pos>
                 <size>0.21 0.308</size>
@@ -879,7 +876,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="mdplay">
                 <pos>0.935 0.825</pos>
                 <origin>.50 0</origin>
@@ -915,7 +912,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-           
+
             <text name="sourceinfo">
                 <size>0.4 0.1</size>
                 <metadata>systemFullname</metadata>
@@ -991,7 +988,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
-               
+
                 <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
             </badges>
 
@@ -1094,7 +1091,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="description1">
                 <size>0.26 0.34</size>
                 <metadata>description</metadata>
@@ -1114,7 +1111,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <image name="meta3">
                 <pos>0.83 0.16</pos>
                 <size>0.14 0.1</size>
@@ -1283,7 +1280,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="sourceinfo">
                 <size>0.36 0.11</size>
                 <metadata>systemFullname</metadata>
@@ -1428,7 +1425,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
-                
+
                 <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
             </badges>
             <gamelistinfo name="info">
