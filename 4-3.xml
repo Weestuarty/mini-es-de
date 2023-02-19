@@ -73,7 +73,7 @@
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
                 <fontSize>0.018</fontSize>
-            </helpsystem>
+            </helpsystem>            
         </view>
         <view name="gamelist">
             <helpsystem name="help">
@@ -84,7 +84,7 @@
                 <iconColor>${helpColor}</iconColor>
                 <fontSize>0.014</fontSize>
             </helpsystem>
-
+            
         </view>
     </variant>
     <variant name="Snesgrid, Nesgrid, Snes2grid,megagrid,psxgrid,mastergrid">
@@ -130,7 +130,7 @@
                 <origin>.50 0</origin>
                 <size>0.05 0</size>
                 <metadata>players</metadata>
-                <defaultValue>Who Knows?</defaultValue>
+                <defaultValue>:space:?</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.04</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -144,7 +144,7 @@
                 <origin>.50 0</origin>
                 <size>0.2 0</size>
                 <text>Players:</text>
-                <defaultValue>Who Knows?</defaultValue>
+                <defaultValue>:space:?</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.04</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -165,7 +165,7 @@
                 <pos>0.691 0.615</pos>
                 <size>0.075 .075</size>
             </badges>
-
+        
             <gamelistinfo name="info">
                 <pos>0.92 0.1025</pos>
                 <origin>0.5 0</origin>
@@ -217,22 +217,22 @@
                 <metadata>name</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.025</fontSize>
+                <fontSize>0.022</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.62 0.25</pos>
+                <pos>0.64 0.2</pos>
                 <origin>0 0</origin>
             </text>
             <text name="mdplay">
-                <pos>0.69 0.43</pos>
+                <pos>0.70 0.39</pos>
                 <origin>.0 0</origin>
                 <size>0.05 0</size>
                 <metadata>players</metadata>
-                <defaultValue>Who Knows?</defaultValue>
+                <defaultValue>:space:?</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>0.02</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -240,13 +240,41 @@
                 <zIndex>29</zIndex>
             </text>
             <text name="mdlbplay">
-                <pos>0.62 0.43</pos>
+                <pos>0.64 0.39</pos>
                 <origin>.0 0</origin>
                 <size>0.1 0</size>
                 <text>Players:</text>
-                <defaultValue>Who Knows?</defaultValue>
+                <defaultValue>:space:?</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>0.02</fontSize>
+                <lineSpacing>1</lineSpacing>
+                <verticalAlignment>bottom</verticalAlignment>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${primaryColor}</color>
+                <zIndex>29</zIndex>
+            </text>
+            <text name="mdemu">
+                <pos>0.64 0.455</pos>
+                <origin>.0 0</origin>
+                <size>0.15 0.04</size>
+                <metadata>emulator</metadata>
+                <defaultValue>:space:?</defaultValue>
+                <fontPath>${primaryFont}</fontPath>
+                <fontSize>0.022</fontSize>
+                <lineSpacing>1</lineSpacing>
+                <verticalAlignment>top</verticalAlignment>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${primaryColor}</color>
+                <zIndex>29</zIndex>
+            </text>
+            <text name="mdlbemu">
+                <pos>0.64 0.43</pos>
+                <origin>.0 0</origin>
+                <size>0.07 0</size>
+                <text>Emulator:</text>
+                <defaultValue>:space:?</defaultValue>
+                <fontPath>${primaryFont}</fontPath>
+                <fontSize>0.022</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -290,20 +318,20 @@
                 <size>0.18 0.06</size>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.025</fontSize>
+                <fontSize>0.022</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.62 0.36</pos>
+                <pos>0.64 0.32</pos>
                 <origin>0 0</origin>
             </text>
         </view>
     </variant>
     <variant name="mega,megagrid">
         <view name="system, gamelist">
-
-
+            
+            
             <helpsystem name="help">
                 <pos>.65 0.975</pos>
                 <origin>1 1</origin>
@@ -319,13 +347,13 @@
         <view name="system, gamelist">
             <helpsystem name="help">
                 <pos>.7 0.975</pos>
-
+                
             </helpsystem>
         </view>
     </variant>
     <variant name="master,mastergrid">
         <view name="system, gamelist">
-
+                        
             <helpsystem name="help">
                 <pos>.65 0.945</pos>
                 <origin>1 1</origin>
