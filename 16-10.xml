@@ -1,5 +1,5 @@
 <theme>
-    <variant name="Snes, Snes2, Nes">
+    <variant name="Snes, Snes2, Nes,mega,psx,master">
         <view name="system">
             <image name="selected">
                 <pos>0.5 0.5575</pos>
@@ -20,23 +20,7 @@
         </variant>
         <variant name="all">
             <view name="system, gamelist">
-        <image name="ESDE">
-            <pos>0.32 .025</pos>
-            <maxSize>0.05 .1</maxSize>
-            <path>./core/images/esde.png</path>
-            <zIndex>49</zIndex>
-        </image>
-        <text name="ESDET">
-            <pos>0.375 0.03</pos>
-            <size>0.6 0.07</size>
-            <text>EmulationStation:DE MINI</text>
-            <color>${systextColor}</color>
-            <fontPath>${altFont}</fontPath>
-            <fontSize>0.04</fontSize>
-            <horizontalAlignment>left</horizontalAlignment>
-            <letterCase>uppercase</letterCase>
-            <zIndex>50</zIndex>
-        </text>
+       
         <text name="gamecount">
             <pos>0.6275 0.2</pos>
             <size>0.3 0.036</size>
@@ -50,7 +34,7 @@
         </text>
         </view>
         </variant>
-        <variant name="Snesgrid, Nesgrid, Snes2grid">
+        <variant name="Snesgrid, Nesgrid, Snes2grid, megagrid, psxgrid,mastergrid">
             <view name="gamelist">
         <text name="sourceinfo">
             <size>0.36 0.06</size>
@@ -105,5 +89,42 @@
                 <gameselectorEntry>1</gameselectorEntry>
             </image>
         </view>
+        </variant>
+        <variant name="mega,megagrid">
+            <view name="system, gamelist">
+                
+                
+                <helpsystem name="help">
+                    <pos>.65 0.975</pos>
+                    <origin>1 1</origin>
+                    <fontPath>${primaryFont}</fontPath>
+                    <textColor>DDDDDD</textColor>
+                    <iconColor>DDDDDD</iconColor>
+                    <fontSize>0.02</fontSize>
+                </helpsystem>
+            </view>
+        </variant>
+    
+        <variant name="psx,psxgrid">
+            <view name="system, gamelist">
+               <helpsystem name="help">
+                    <pos>.7 0.975</pos>
+                    
+                </helpsystem>
+            </view>
+        </variant>
+        <variant name="master,mastergrid">
+            <view name="system, gamelist">
+                
+                 
+                <helpsystem name="help">
+                    <pos>.65 0.945</pos>
+                    <origin>1 1</origin>
+                    <fontPath>${primaryFont}</fontPath>
+                    <textColor>DDDDDD</textColor>
+                    <iconColor>DDDDDD</iconColor>
+                    <fontSize>0.02</fontSize>
+                </helpsystem>
+            </view>
         </variant>
 </theme>

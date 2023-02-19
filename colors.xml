@@ -1,4 +1,22 @@
 <theme>
+
+    <colorScheme name="sega">
+        <variables>
+            <colorSchemeName>sega</colorSchemeName>
+            <backgroundColor>BBBBBB</backgroundColor>
+            <sysColor>AAAAAA</sysColor>
+            <systextColor>12457C</systextColor>
+            <sysmenuColor>FFFFFF</sysmenuColor>
+            <textColor>17569B</textColor>
+            <primaryColor>0755ab</primaryColor>
+            <secondaryColor>17569B</secondaryColor>
+            <selectgameColor>17569B</selectgameColor>
+            <gamegridColor>DDDDDD</gamegridColor>
+            <selectsysColor>17569B</selectsysColor>
+            <helpColor>12457c</helpColor>
+        </variables>
+    </colorScheme>
+   
     <colorScheme name="gold">
         <variables>
             <colorSchemeName>gold</colorSchemeName>

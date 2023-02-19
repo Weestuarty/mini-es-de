@@ -42,6 +42,84 @@
                 <color>${sysColor}</color>
                 <zIndex>48</zIndex>
             </image>
+            <image name="ESDE">
+                <pos>0.08 .03</pos>
+                <size>0.15 .065</size>
+                <path>./core/images/esde.svg</path>
+                <zIndex>49</zIndex>
+            </image>
+        </view>
+    </variant>
+    <variant name="psx, psxgrid">
+        <view name="system, gamelist">
+            <image name="bottom">
+                <pos>0 .9</pos>
+                <size>1 .1</size>
+                <path>./core/psx/bottom.png</path>
+                <color>${sysColor}</color>
+                <zIndex>48</zIndex>
+            </image>
+            <image name="top">
+                <pos>0 0</pos>
+                <size>1 .1</size>
+                <path>./core/psx/top.png</path>
+                <color>${sysColor}</color>
+                <zIndex>48</zIndex>
+            </image>
+            <image name="ESDE">
+                <pos>0.07 .0225</pos>
+                <size>0.15 .065</size>
+                <path>./core/images/esde.svg</path>
+                <zIndex>49</zIndex>
+            </image>
+        </view>
+    </variant>
+    <variant name="mega, megagrid">
+        <view name="system, gamelist">
+            <image name="bottom">
+                <pos>0 .9</pos>
+                <size>1 .1</size>
+                <path>./core/mega/bottom.png</path>
+                <color>${sysColor}</color>
+                <zIndex>48</zIndex>
+            </image>
+            <image name="top">
+                <pos>0 0</pos>
+                <size>1 .1</size>
+                <path>./core/mega/top.png</path>
+                <color>${sysColor}</color>
+                <zIndex>48</zIndex>
+            </image>
+            <image name="ESDE">
+                <pos>0.18 0.025</pos>
+                <size>0.15 .065</size>
+                <path>./core/images/esde.svg</path>
+                <zIndex>49</zIndex>
+            </image>
+        </view>
+    </variant>
+    <variant name="master, mastergrid">
+        <view name="system, gamelist">
+            <image name="bottom">
+                <pos>0 .9</pos>
+                <size>1 .1</size>
+                <path>./core/master/bottom.png</path>
+                <color>${sysColor}</color>
+                <zIndex>48</zIndex>
+            </image>
+            <image name="top">
+                <pos>0 0</pos>
+                <size>1 .1</size>
+                <path>./core/master/top.png</path>
+                <color>${sysColor}</color>
+                <zIndex>48</zIndex>
+            </image>
+            <image name="ESDE">
+                <pos>0.1 .01</pos>
+                <size>0.15 .065</size>
+                <path>./core/images/esde.svg</path>
+                <zIndex>49</zIndex>
+            </image>
         </view>
     </variant>
 
@@ -61,6 +139,12 @@
                 <color>${sysColor}</color>
                 <zIndex>48</zIndex>
             </image>
+            <image name="ESDE">
+                <pos>0.1 .03</pos>
+                <size>0.15 .065</size>
+                <path>./core/images/esde.svg</path>
+                <zIndex>49</zIndex>
+            </image>
         </view>
     </variant>
 
@@ -79,6 +163,12 @@
                 <path>./core/nes/top.png</path>
                 <color>${sysColor}</color>
                 <zIndex>48</zIndex>
+            </image>
+            <image name="ESDE">
+                <pos>0.07 .035</pos>
+                <size>0.15 .065</size>
+                <path>./core/images/esde.svg</path>
+                <zIndex>49</zIndex>
             </image>
         </view>
     </variant>
@@ -101,23 +191,8 @@
                 <zIndex>45</zIndex>
             </image>
 
-            <image name="ESDE">
-                <pos>0.32 .02</pos>
-                <maxSize>0.05 .1</maxSize>
-                <path>./core/images/esde.png</path>
-                <zIndex>49</zIndex>
-            </image>
-            <text name="ESDET">
-                <pos>0.375 0.03</pos>
-                <size>0.6 0.07</size>
-                <text>EmulationStation:DE MINI</text>
-                <color>${systextColor}</color>
-                <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>50</zIndex>
-            </text>
+            
+            
 
 
             <image name="consolec">
@@ -336,8 +411,41 @@
             </helpsystem>
         </view>
     </variant>
+    <variant name="mega,megagrid">
+        <view name="system, gamelist">            
+            <helpsystem name="help">
+                <pos>.65 0.975</pos>
+                <origin>1 1</origin>
+                <fontPath>${primaryFont}</fontPath>
+                <textColor>DDDDDD</textColor>
+                <iconColor>DDDDDD</iconColor>
+                <fontSize>0.02</fontSize>
+            </helpsystem>
+        </view>
+    </variant>
+    <variant name="master,mastergrid">
+        <view name="system, gamelist">           
+            <helpsystem name="help">
+                <pos>.65 0.945</pos>
+                <origin>1 1</origin>
+                <fontPath>${primaryFont}</fontPath>
+                <textColor>DDDDDD</textColor>
+                <iconColor>DDDDDD</iconColor>
+                <fontSize>0.02</fontSize>
+            </helpsystem>
+        </view>
+    </variant>
 
-    <variant name="Snes, Snes2, Nes">
+    <variant name="psx,psxgrid">
+        <view name="system, gamelist">
+            <helpsystem name="help">
+                <pos>.7 0.975</pos>
+            </helpsystem>
+        </view>
+    </variant>
+   
+
+    <variant name="Snes, Snes2, Nes, mega, psx,master">
         <view name="system">
             <carousel name="system_carousel">
                 <pos>0 0.55</pos>
@@ -569,14 +677,14 @@
                 <zIndex>28</zIndex>
             </text>
             <text name="collectionsSystemName">
-                <size>0.2 0.1</size>
+                <size>0.225 0.1</size>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.035</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.65 0.7</pos>
+                <pos>0.66 0.7</pos>
                 <origin>.50 0</origin>
             </text>
             <image name="meta">
@@ -756,16 +864,16 @@
             </text>
             
             <image name="disp">
-                <pos>0.545 0.395</pos>
+                <pos>0.555 0.395</pos>
                 <size>0.21 0.308</size>
                 <path>./core/images/frame.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>30</zIndex>
             </image>
             <image name="marquee">
-                <pos>0.65 0.3</pos>
+                <pos>0.66 0.295</pos>
                 <origin>0.5 0.5</origin>
-                <maxSize>0.2 0.2</maxSize>
+                <maxSize>0.225 0.19</maxSize>
                 <imageType>marquee</imageType>
                 <zIndex>26</zIndex>
             </image>
@@ -855,7 +963,7 @@
                 <color>${primaryColor}</color>
             </gamelistinfo>
             <video name="md_video">
-                <pos>0.65 0.55</pos>
+                <pos>0.66 0.55</pos>
                 <size>0.19 0.28</size>
                 <origin>0.5 0.5</origin>
                 <imageType>titlescreen, screenshot</imageType>
@@ -903,7 +1011,7 @@
         </view>
     </variant>
 
-    <variant name="Snesgrid, Nesgrid, Snes2grid">
+    <variant name="Snesgrid, Nesgrid, Snes2grid, megagrid, psxgrid, mastergrid">
 
         <view name="system">
             <grid name="system_grid">
@@ -1224,7 +1332,7 @@
                 <zIndex>29</zIndex>
             </video>
             <image name="disp3">
-                <pos>0.495 0.34</pos>
+                <pos>0.495 0.33</pos>
                 <origin>0.5 0.5</origin>
                 <size>0.2 0.3075</size>
                 <path>./core/images/frame.svg</path>
@@ -1232,7 +1340,7 @@
                 <zIndex>30</zIndex>
             </image>
             <image name="disp4">
-                <pos>0.4955 0.34</pos>
+                <pos>0.4955 0.33</pos>
                 <origin>0.5 0.5</origin>
                 <size>0.21 0.316</size>
                 <path>./core/images/frame.svg</path>

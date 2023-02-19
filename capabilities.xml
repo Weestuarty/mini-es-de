@@ -22,6 +22,14 @@
         <label>NES</label>
     </colorScheme>
 
+    <colorScheme name="fami">
+        <label>Famicon</label>
+    </colorScheme>
+
+    <colorScheme name="sega">
+        <label>Sega</label>
+    </colorScheme>
+
     <colorScheme name="hyst">
         <label>Hystoria</label>
     </colorScheme>
@@ -42,9 +50,7 @@
         <label>Gold</label>
     </colorScheme>
 
-    <colorScheme name="fami">
-        <label>Famicon</label>
-    </colorScheme>
+    
 
     <variant name="Snes">
         <label>Super Nintendo (List)</label>
@@ -58,6 +64,21 @@
 
     <variant name="Nes">
         <label>Nintendo (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="mega">
+        <label>Mega Drive (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="master">
+        <label>Master System (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="psx">
+        <label>Playstation (List)</label>
         <selectable>true</selectable>
     </variant>
 
@@ -75,4 +96,20 @@
         <label>Nintendo (Grid)</label>
         <selectable>true</selectable>
     </variant>
+
+    <variant name="megagrid">
+        <label>Mega Drive (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="mastergrid">
+        <label>Master System (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+    
+    <variant name="psxgrid">
+        <label>Playstation (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+    
 </themeCapabilities>
