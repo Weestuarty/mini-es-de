@@ -3,7 +3,9 @@
 ESDEmini is a theme set for ES-DE that supports all systems as well as the latest application features.
 
 ![systems](sys.png)
+![systems2](sys2.png)
 ![games](game.png)
+![games2](game2.png)
 
 The following options are included:
 
