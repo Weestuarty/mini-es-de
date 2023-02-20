@@ -38,6 +38,10 @@
         <label>Hystoria</label>
     </colorScheme>
 
+    <colorScheme name="hystalt">
+        <label>Hystoria ALT</label>
+    </colorScheme>
+
     <colorScheme name="limited">
         <label>Limited Edition</label>
     </colorScheme>

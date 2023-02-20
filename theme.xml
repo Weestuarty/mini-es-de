@@ -486,6 +486,7 @@
                 <itemTransitions>instant</itemTransitions>
                 <type>vertical</type>
                 <imageType>none</imageType>
+                <textSelectedColor>${gamegridColor}</textSelectedColor>
                 <color>11111100</color>
                 <maxItemCount>6.5</maxItemCount>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
@@ -570,14 +571,14 @@
                 <size>0.3 0.05</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${selectgameColor}</color>
-                <zIndex>30</zIndex>
+                <zIndex>28</zIndex>
             </image>
             <image name="carmainbak4">
                 <pos>0.02 0.345</pos>
                 <size>0.3 0.05</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
-                <zIndex>31</zIndex>
+                <zIndex>28</zIndex>
             </image>
             <image name="carmain5">
                 <pos>0.02 0.4</pos>
@@ -638,18 +639,7 @@
                 <zIndex>28</zIndex>
             </image>
             
-            <text name="game">
-                <pos>0.025 0.3525</pos>
-                <size>0.29 0.036</size>
-                <metadata>name</metadata>
-                <systemNameSuffix>false</systemNameSuffix>
-                <color>${gamegridColor}</color>
-                <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.018</fontSize>
-                <horizontalAlignment>center</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>40</zIndex>
-            </text>
+           
             <image name="desc">
                 <pos>0.335 0.19</pos>
                 <size>0.2 0.61</size>
@@ -917,7 +907,7 @@
                 <origin>.50 0</origin>
                 <size>0.05 0</size>
                 <metadata>players</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.05</fontSize>
                 <lineSpacing>1</lineSpacing>

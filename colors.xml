@@ -82,6 +82,22 @@
             <helpColor>111111</helpColor>
         </variables>
     </colorScheme>
+
+    <colorScheme name="hystalt">
+        <variables>
+            <colorSchemeName>hystalt</colorSchemeName>
+            <backgroundColor>1c4a26</backgroundColor>
+            <sysColor>c8c9c7</sysColor>
+            <systextColor>111111</systextColor>
+            <sysmenuColor>ce9b58</sysmenuColor>
+            <primaryColor>ce9b58</primaryColor>
+            <secondaryColor>1c4a26</secondaryColor>
+            <selectgameColor>1c4a26</selectgameColor>
+            <gamegridColor>ce9b58</gamegridColor>
+            <selectsysColor>ce9b58</selectsysColor>  
+            <helpColor>111111</helpColor>
+        </variables>
+    </colorScheme>
     
     <colorScheme name="elep">
         <variables>
