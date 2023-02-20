@@ -698,6 +698,7 @@
                 <format>%d/%m/%Y</format>
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
+                <gameselector>1</gameselector>
                 <color>${primaryColor}</color>
             </datetime>
             <text name="mdlbrelease">
