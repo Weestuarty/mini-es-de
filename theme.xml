@@ -450,7 +450,7 @@
             <carousel name="system_carousel">
                 <pos>0 0.55</pos>
                 <size>1 .35</size>
-                <staticImage>./core/banner/${system.fullName}.png</staticImage>
+                <staticImage>./core/banner/${system.theme}.png</staticImage>
                 <color>11111100</color>
                 <itemSize>0.16 0.3</itemSize>
                 <itemScale>1.2</itemScale>
@@ -1036,7 +1036,7 @@
             <grid name="system_grid">
                 <pos>0.0 0.5</pos>
                 <size>1 .5</size>
-                <staticImage>./core/banner/${system.fullName}.png</staticImage>
+                <staticImage>./core/banner/${system.theme}.png</staticImage>
                 <itemSize>0.1 0.2</itemSize>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1</itemScale>
