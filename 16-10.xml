@@ -8,20 +8,47 @@
                 <path>./core/images/sysselect.png</path>
                 <color>${selectsysColor}</color>
             </image>
-            <image name="gamecount2">
-                <pos>0.64 0.35</pos>
-                <maxSize>0.3 0.2</maxSize>
-                <imageType>marquee</imageType>
-                <zIndex>40</zIndex>
-                <gameselectorEntry>1</gameselectorEntry>
-            </image>
+           
             <text name="gamecount">
-                <pos>0.63 0.3</pos>
+                <pos>0.31 0.225</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.05</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="gamesys">
+                <pos>0.15 0.175</pos>
+                <size>0.7 0.036</size>
+                <systemdata>fullname</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.05</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="game">
+                <pos>0.15 0.225</pos>
+                <size>0.4 0.036</size>
+                <text>contains</text>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.05</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="game3">
+                <pos>0.15 0.4</pos>
+                <size>0.4 0.036</size>
+                <text>including:</text>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.05</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
@@ -96,20 +123,52 @@
         </view>
         <view name="system">
             <text name="gamecount">
-                <pos>0.6275 0.2</pos>
+                <pos>0.31 0.225</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.05</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
-                </text>
+            </text>
+            <text name="gamesys">
+                <pos>0.15 0.175</pos>
+                <size>0.7 0.036</size>
+                <systemdata>fullname</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.05</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="game">
+                <pos>0.15 0.225</pos>
+                <size>0.4 0.036</size>
+                <text>contains</text>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.05</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="game3">
+                <pos>0.15 0.4</pos>
+                <size>0.4 0.036</size>
+                <text>including:</text>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.05</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
             <grid name="system_grid">
                 <pos>0.0 0.53</pos>
                 <size>1 .4</size>
-                <staticImage>./core/banner/${system.fullName}.png</staticImage>
                 <itemSize>0.1 0.18</itemSize>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -127,13 +186,7 @@
                 <lineSpacing>1.1</lineSpacing>
                 <zIndex>29</zIndex>
             </grid>
-            <image name="gamecount2">
-                <pos>0.64 0.29</pos>
-                <maxSize>0.3 0.2</maxSize>
-                <imageType>marquee</imageType>
-                <zIndex>40</zIndex>
-                <gameselectorEntry>1</gameselectorEntry>
-            </image>
+           
         </view>
         </variant>
         <variant name="mega,megagrid">

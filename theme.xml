@@ -251,60 +251,54 @@
                 <selection>random</selection>
                 <gameCount>1</gameCount>
             </gameselector>
-            <image name="art">
-                <pos>0.25 0.325</pos>
-                <maxSize>0.4 0.35</maxSize>
-                <origin>0.5 0.5</origin>
-                <path>./core/consoles/${system.fullName}.png</path>
-                <zIndex>42</zIndex>
-            </image>
             <text name="gamecount">
-                <pos>0.61 0.3</pos>
+                <pos>0.32 0.225</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.06</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <text name="gamesys">
-                <pos>0.5 0.25</pos>
-                <size>0.48 0.036</size>
+                <pos>0.15 0.175</pos>
+                <size>0.7 0.036</size>
                 <systemdata>fullname</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.06</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <text name="game">
-                <pos>0.5 0.3</pos>
+                <pos>0.15 0.225</pos>
                 <size>0.4 0.036</size>
                 <text>contains</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.06</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <text name="game3">
-                <pos>0.5 0.35</pos>
+                <pos>0.15 0.4</pos>
                 <size>0.4 0.036</size>
                 <text>including:</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.06</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <image name="gamecount2">
-                <pos>0.63 0.35</pos>
-                <maxSize>0.3 0.2</maxSize>
+                <pos>0.575 0.4</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.38 0.22</maxSize>
                 <imageType>marquee</imageType>
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
@@ -749,14 +743,14 @@
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
             </text>
-            <image name="meta8">
+            <!--<image name="meta8">
                 <pos>0.79 0.71</pos>
                 <size>0.19 0.15</size>
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
-            <!-- <text name="mdemu">
+            <text name="mdemu">
                 <pos>0.915 0.68</pos>
                 <origin>.50 0</origin>
                 <size>0.11 0.09</size>
@@ -768,7 +762,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
-            </text>-->
+            </text>
             <text name="mdlblemu">
                 <pos>0.83 0.675</pos>
                 <origin>.50 0</origin>
@@ -780,7 +774,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-            </text>
+            </text>-->
             <image name="disp">
                 <pos>0.555 0.395</pos>
                 <size>0.21 0.308</size>
@@ -961,32 +955,29 @@
                 <lineSpacing>1.1</lineSpacing>
                 <zIndex>29</zIndex>
             </grid>
-            <image name="art">
-                <pos>0.25 0.3</pos>
-                <maxSize>0.4 0.35</maxSize>
-                <origin>0.5 0.5</origin>
-            </image>
+            
             <text name="gamecount">
-                <pos>0.62 0.2</pos>
+                <pos>0.32 0.2</pos>
                 <size>0.3 0.036</size>
             </text>
             <text name="gamesys">
-                <pos>0.5 0.15</pos>
-                <size>0.48 0.036</size>
+                <pos>0.15 0.15</pos>
+                <size>0.7 0.036</size>
             </text>
             <text name="game">
-                <pos>0.5 0.2</pos>
+                <pos>0.15 0.2</pos>
                 <size>0.4 0.036</size>
                 <text>contains</text>
             </text>
             <text name="game3">
-                <pos>0.5 0.25</pos>
+                <pos>0.15 0.35</pos>
                 <size>0.4 0.036</size>
                 <text>including:</text>
             </text>
             <image name="gamecount2">
-                <pos>0.63 0.25</pos>
-                <maxSize>0.3 0.2</maxSize>
+                <pos>0.55 0.375</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.35 0.2</maxSize>
                 <imageType>marquee</imageType>
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
@@ -1317,8 +1308,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>29</zIndex>
             </text>
-            <!--<text
-            name="mdemu">
+           <!-- <text name="mdemu">
                 <pos>0.7 0.43</pos>
                 <origin>.0 0</origin>
                 <size>0.09 0</size>
@@ -1331,7 +1321,7 @@
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
                 <zIndex>29</zIndex>
-            </text>-->
+            </text>
             <text name="mdlbemu">
                 <pos>0.64 0.43</pos>
                 <origin>.0 0</origin>
@@ -1345,7 +1335,7 @@
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
                 <zIndex>29</zIndex>
-            </text>
+            </text>-->
             <badges name="all">
                 <pos>0.31 0.17</pos>
                 <size>0.12 .32</size>

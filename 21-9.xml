@@ -1,25 +1,10 @@
 <theme>
-    <variant name="all">
-        <view name="system, gamelist">
-            <text name="gamecount">
-                <pos>0.59 0.2</pos>
-                <size>0.3 0.036</size>
-                <systemdata>gamecountGames</systemdata>
-                <color>${primaryColor}</color>
-                <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>40</zIndex>
-            </text>
-            </view>
-    </variant>
+   
     <variant name="Snes, Snes2, Nes, mega,psx,master">
         <view name="system">
             <carousel name="system_carousel">
                 <pos>0 0.55</pos>
                 <size>1 .35</size>
-                <staticImage>./core/banner/${system.fullName}.png</staticImage>
                 <color>11111100</color>
                 <itemSize>0.16 0.3</itemSize>
                 <itemScale>1.2</itemScale>
@@ -41,6 +26,58 @@
                 <path>./core/images/sysselect.png</path>
                 <color>${selectsysColor}</color>
             </image>
+            <text name="gamecount">
+                <pos>0.28 0.225</pos>
+                <size>0.3 0.036</size>
+                <systemdata>gamecountGames</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.06</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="gamesys">
+                <pos>0.15 0.175</pos>
+                <size>0.7 0.036</size>
+                <systemdata>fullname</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.06</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="game">
+                <pos>0.15 0.225</pos>
+                <size>0.4 0.036</size>
+                <text>contains</text>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.06</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <text name="game3">
+                <pos>0.15 0.4</pos>
+                <size>0.4 0.036</size>
+                <text>including:</text>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.06</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+            <image name="gamecount2">
+                <pos>0.5 0.4</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.38 0.22</maxSize>
+                <imageType>marquee</imageType>
+                <zIndex>40</zIndex>
+                <gameselectorEntry>1</gameselectorEntry>
+            </image>
 
 
         </view>
@@ -48,11 +85,62 @@
         <variant name="Snesgrid, Nesgrid, Snes2grid, psxgrid,megagrid,mastergrid">
 
             <view name="system">
+                <text name="gamecount">
+                    <pos>0.28 0.225</pos>
+                    <size>0.3 0.036</size>
+                    <systemdata>gamecountGames</systemdata>
+                    <color>${primaryColor}</color>
+                    <fontPath>${altFont}</fontPath>
+                    <fontSize>0.06</fontSize>
+                    <horizontalAlignment>left</horizontalAlignment>
+                    <letterCase>uppercase</letterCase>
+                    <zIndex>40</zIndex>
+                </text>
+                <text name="gamesys">
+                    <pos>0.15 0.175</pos>
+                    <size>0.7 0.036</size>
+                    <systemdata>fullname</systemdata>
+                    <color>${primaryColor}</color>
+                    <fontPath>${altFont}</fontPath>
+                    <fontSize>0.06</fontSize>
+                    <horizontalAlignment>left</horizontalAlignment>
+                    <letterCase>uppercase</letterCase>
+                    <zIndex>40</zIndex>
+                </text>
+                <text name="game">
+                    <pos>0.15 0.225</pos>
+                    <size>0.4 0.036</size>
+                    <text>contains</text>
+                    <color>${primaryColor}</color>
+                    <fontPath>${altFont}</fontPath>
+                    <fontSize>0.06</fontSize>
+                    <horizontalAlignment>left</horizontalAlignment>
+                    <letterCase>uppercase</letterCase>
+                    <zIndex>40</zIndex>
+                </text>
+                <text name="game3">
+                    <pos>0.15 0.375</pos>
+                    <size>0.4 0.036</size>
+                    <text>including:</text>
+                    <color>${primaryColor}</color>
+                    <fontPath>${altFont}</fontPath>
+                    <fontSize>0.06</fontSize>
+                    <horizontalAlignment>left</horizontalAlignment>
+                    <letterCase>uppercase</letterCase>
+                    <zIndex>40</zIndex>
+                </text>
+                <image name="gamecount2">
+                    <pos>0.5 0.375</pos>
+                    <origin>0.5 0.5</origin>
+                    <maxSize>0.38 0.22</maxSize>
+                    <imageType>marquee</imageType>
+                    <zIndex>40</zIndex>
+                    <gameselectorEntry>1</gameselectorEntry>
+                </image>
                 <grid name="system_grid">
                     <pos>0.5 0.5</pos>
                     <size>0.961 .5</size>
                     <origin>0.5 0</origin>
-                    <staticImage>./core/banner/${system.fullName}.png</staticImage>
                     <itemSize>0.08 0.2</itemSize>
                     <imageRelativeScale>1</imageRelativeScale>
                     <itemScale>1</itemScale>

@@ -6,64 +6,28 @@
                 <selection>random</selection>
                 <gameCount>1</gameCount>
             </gameselector>
-            <image name="art">
-                <pos>0.25 0.31</pos>
-                <maxSize>0.4 0.35</maxSize>
-                <origin>0.5 0.5</origin>
-                <gameselectorEntry>1</gameselectorEntry>
-                <brightness>-0.5</brightness>
-                <zIndex>75</zIndex>
-            </image>
             <text name="gamecount">
-                <pos>0.65 0.275</pos>
-                <size>0.3 0.036</size>
-                <systemdata>gamecountGames</systemdata>
-                <color>${primaryColor}</color>
-                <fontPath>${altFont}</fontPath>
+                <pos>0.3 0.225</pos>
                 <fontSize>0.04</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>40</zIndex>
             </text>
             <text name="gamesys">
-                <pos>0.5 0.225</pos>
-                <size>0.48 0.036</size>
-                <systemdata>fullname</systemdata>
-                <color>${primaryColor}</color>
-                <fontPath>${altFont}</fontPath>
+                
                 <fontSize>0.04</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>40</zIndex>
+               
             </text>
             <text name="game">
-                <pos>0.5 0.275</pos>
-                <size>0.4 0.036</size>
-                <text>contains</text>
-                <color>${primaryColor}</color>
-                <fontPath>${altFont}</fontPath>
+                
                 <fontSize>0.04</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>40</zIndex>
+                
             </text>
             <text name="game3">
-                <pos>0.5 0.325</pos>
-                <size>0.4 0.036</size>
-                <text>including:</text>
-                <color>${primaryColor}</color>
-                <fontPath>${altFont}</fontPath>
+                
+                
                 <fontSize>0.04</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
-                <letterCase>uppercase</letterCase>
-                <zIndex>40</zIndex>
+               
             </text>
             <image name="gamecount2">
-                <pos>0.68 0.32</pos>
-                <maxSize>0.3 0.18</maxSize>
-                <imageType>marquee</imageType>
-                <zIndex>40</zIndex>
-                <gameselectorEntry>1</gameselectorEntry>
+                <pos>0.575 0.42</pos>
             </image>
 
             <helpsystem name="help">
@@ -94,7 +58,6 @@
                 <pos>0.5 0.7</pos>
                 <size>0.98 .4</size>
                 <origin>0.5 0.5</origin>
-                <staticImage>./core/banner/${system.fullName}.png</staticImage>
                 <itemSize>0.14 0.2</itemSize>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -112,6 +75,25 @@
                 <lineSpacing>1.1</lineSpacing>
                 <zIndex>29</zIndex>
             </grid>
+            <image name="gamecount2">
+                <pos>0.575 0.36</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.38 0.22</maxSize>
+                <imageType>marquee</imageType>
+                <zIndex>40</zIndex>
+                <gameselectorEntry>1</gameselectorEntry>
+            </image>
+            <text name="gamecount">
+                <pos>0.3 0.2</pos>
+                <size>0.3 0.036</size>
+                <systemdata>gamecountGames</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.04</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
         </view>
     </variant>
     <variant name="Snes, Snes2, Nes,mega,psx,master">
