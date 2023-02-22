@@ -1,0 +1,123 @@
+<!--
+    Theme capabilities for ESDE-Mini
+-->
+
+<themeCapabilities>
+    <themeName>ESDE-Mini</themeName>
+    
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+    
+    <colorScheme name="snes">
+        <label>SNES</label>
+    </colorScheme>
+
+    <colorScheme name="usnesa">
+        <label>USNESA</label>
+    </colorScheme>
+
+    <colorScheme name="nes">
+        <label>NES</label>
+    </colorScheme>
+
+    <colorScheme name="fami">
+        <label>Famicon</label>
+    </colorScheme>
+
+    <colorScheme name="sega">
+        <label>Sega</label>
+    </colorScheme>
+
+    <colorScheme name="master">
+        <label>Master System</label>
+    </colorScheme>
+
+    <colorScheme name="hyst">
+        <label>Hystoria</label>
+    </colorScheme>
+
+    <colorScheme name="hystalt">
+        <label>Hystoria ALT</label>
+    </colorScheme>
+
+    <colorScheme name="limited">
+        <label>Limited Edition</label>
+    </colorScheme>
+
+    <colorScheme name="mario">
+        <label>Its a Mario</label>
+    </colorScheme>
+
+    <colorScheme name="elep">
+        <label>Mrs LEphant</label>
+    </colorScheme>
+
+    <colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+
+    
+
+    <variant name="Snes">
+        <label>Super Nintendo (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="Snes2">
+        <label>UsnesA UsnesA (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="Nes">
+        <label>Nintendo (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="mega">
+        <label>Mega Drive (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="master">
+        <label>Master System (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="psx">
+        <label>Playstation (List)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="Snesgrid">
+        <label>Super Nintendo (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="Snes2grid">
+        <label>UsnesA UsnesA (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="Nesgrid">
+        <label>Nintendo (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="megagrid">
+        <label>Mega Drive (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="mastergrid">
+        <label>Master System (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+    
+    <variant name="psxgrid">
+        <label>Playstation (Grid)</label>
+        <selectable>true</selectable>
+    </variant>
+    
+</themeCapabilities>

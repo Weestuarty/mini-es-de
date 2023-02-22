@@ -1,0 +1,176 @@
+<theme>
+    <variant name="Snes, Snes2, Nes,mega,psx,master">
+        <view name="system">
+            <image name="selected">
+                <pos>0.5 0.5575</pos>
+                <origin>0.5 0</origin>
+                <size>0.195 0.3375</size>
+                <path>./core/images/sysselect.png</path>
+                <color>${selectsysColor}</color>
+            </image>
+            <image name="gamecount2">
+                <pos>0.64 0.35</pos>
+                <maxSize>0.3 0.2</maxSize>
+                <imageType>marquee</imageType>
+                <zIndex>40</zIndex>
+                <gameselectorEntry>1</gameselectorEntry>
+            </image>
+            <text name="gamecount">
+                <pos>0.63 0.3</pos>
+                <size>0.3 0.036</size>
+                <systemdata>gamecountGames</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.04</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+            </text>
+        </view>
+    <view name="gamelist">
+        <badges name="broken">
+            <pos>0.678 0.60</pos>
+            <size>0.1 .09</size>
+            </badges>
+            
+    </view>
+        </variant>
+        <variant name="all">
+            <view name="system, gamelist">
+       
+        
+        </view>
+        </variant>
+        <variant name="Snesgrid, Nesgrid, Snes2grid, megagrid, psxgrid,mastergrid">
+            <view name="gamelist">
+        <text name="sourceinfo">
+            <size>0.36 0.06</size>
+            <metadata>systemFullname</metadata>
+            <fontPath>${primaryFont}</fontPath>
+            <letterCase>capitalize</letterCase>
+            <fontSize>0.03</fontSize>
+            <lineSpacing>1</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${primaryColor}</color>
+            <pos>0.51 0.11</pos>
+            <origin>.5 0</origin>
+        </text>
+        <text name="mdplay">
+            <pos>0.7 0.39</pos>
+            <origin>.0 0</origin>
+            <size>0.05 0</size>
+            <metadata>players</metadata>
+            <defaultValue>:space:?</defaultValue>
+            <fontPath>${primaryFont}</fontPath>
+            <fontSize>0.025</fontSize>
+            <lineSpacing>1</lineSpacing>
+            <verticalAlignment>bottom</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${primaryColor}</color>
+            <zIndex>29</zIndex>
+        </text>
+        <text name="mdemu">
+            <pos>0.71 0.43</pos>
+            <origin>.0 0</origin>
+            <size>0.09 0.07</size>
+            <metadata>emulator</metadata>
+            <defaultValue>:space:?</defaultValue>
+            <fontPath>${primaryFont}</fontPath>
+            <fontSize>0.025</fontSize>
+            <lineSpacing>1</lineSpacing>
+            <verticalAlignment>top</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${primaryColor}</color>
+            <zIndex>29</zIndex>
+        </text>
+        <gamelistinfo name="info">
+            <pos>0.69 0.115</pos>
+            <origin>0 0</origin>
+            <size>0.11 0.05</size>
+            <horizontalAlignment>center</horizontalAlignment>
+            <fontPath>${primaryFont}</fontPath>
+            <fontSize>0.03</fontSize>
+            <color>${primaryColor}</color>
+        </gamelistinfo>
+        </view>
+        <view name="system">
+            <text name="gamecount">
+                <pos>0.6275 0.2</pos>
+                <size>0.3 0.036</size>
+                <systemdata>gamecountGames</systemdata>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>0.04</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>40</zIndex>
+                </text>
+            <grid name="system_grid">
+                <pos>0.0 0.53</pos>
+                <size>1 .4</size>
+                <staticImage>./core/banner/${system.fullName}.png</staticImage>
+                <itemSize>0.1 0.18</itemSize>
+                <imageRelativeScale>1</imageRelativeScale>
+                <itemScale>1</itemScale>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <selectorLayer>top</selectorLayer>
+                <selectorImage>./core/images/sysselect.png</selectorImage>
+                <selectorColor>${selectsysColor}</selectorColor>
+                <selectorRelativeScale>1.1</selectorRelativeScale>
+                <text>${system.fullName}</text>
+                <textColor>${sysmenuColor}</textColor>
+                <textRelativeScale>1.02</textRelativeScale>
+                <fontPath>${primaryFont}</fontPath>
+                <fontSize>0.02</fontSize>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1.1</lineSpacing>
+                <zIndex>29</zIndex>
+            </grid>
+            <image name="gamecount2">
+                <pos>0.64 0.29</pos>
+                <maxSize>0.3 0.2</maxSize>
+                <imageType>marquee</imageType>
+                <zIndex>40</zIndex>
+                <gameselectorEntry>1</gameselectorEntry>
+            </image>
+        </view>
+        </variant>
+        <variant name="mega,megagrid">
+            <view name="system, gamelist">
+                
+                
+                <helpsystem name="help">
+                    <pos>.65 0.975</pos>
+                    <origin>1 1</origin>
+                    <fontPath>${primaryFont}</fontPath>
+                    <textColor>DDDDDD</textColor>
+                    <iconColor>DDDDDD</iconColor>
+                    <fontSize>0.02</fontSize>
+                </helpsystem>
+            </view>
+        </variant>
+    
+        <variant name="psx,psxgrid">
+            <view name="system, gamelist">
+               <helpsystem name="help">
+                    <pos>.7 0.975</pos>
+                    
+                </helpsystem>
+            </view>
+        </variant>
+        <variant name="master,mastergrid">
+            <view name="system, gamelist">
+                
+                 
+                <helpsystem name="help">
+                    <pos>.65 0.945</pos>
+                    <origin>1 1</origin>
+                    <fontPath>${primaryFont}</fontPath>
+                    <textColor>DDDDDD</textColor>
+                    <iconColor>DDDDDD</iconColor>
+                    <fontSize>0.02</fontSize>
+                </helpsystem>
+            </view>
+        </variant>
+</theme>
