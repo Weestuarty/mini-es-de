@@ -195,56 +195,7 @@
             
 
 
-            <image name="consolec">
-                <pos>0.75 0.55</pos>
-                <maxSize>0.3 0.15</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.4</opacity>
-                <path>./core/controllers/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>3</zIndex>
-            </image>
-            <image name="consolec1">
-                <pos>-0.05 0.4</pos>
-                <maxSize>0.6 0.3</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.35</opacity>
-                <path>./core/controllers/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>2</zIndex>
-            </image>
-            <image name="consolec3">
-                <pos>0.3 0.01</pos>
-                <maxSize>0.5 0.2</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.35</opacity>
-                <path>./core/controllers/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>2</zIndex>
-            </image>
-            <image name="consolec4">
-                <pos>0.8 0.1</pos>
-                <maxSize>0.5 0.2</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.3</opacity>
-                <path>./core/controllers/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>2</zIndex>
-            </image>
-            <image name="consolec2">
-                <pos>0.6 0.27</pos>
-                <maxSize>0.3 0.15</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.35</opacity>
-                <path>./core/controllers/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>2</zIndex>
-            </image>
+           
             <image name="consolegame">
                 <pos>0.8 0.35</pos>
                 <maxSize>0.3 0.1</maxSize>
@@ -306,26 +257,7 @@
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>15</zIndex>
             </image>
-            <image name="consolegame6">
-                <pos>0.05 0.85</pos>
-                <maxSize>0.4 0.15</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.15</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>15</zIndex>
-            </image>
-            <image name="consolegame8">
-                <pos>0.65 0.75</pos>
-                <maxSize>0.4 0.15</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.15</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>15</zIndex>
-            </image>
+            
         </view>
         <view name="system">
             <gameselector name="select">
@@ -849,7 +781,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
-            <text name="mdemu">
+           <!-- <text name="mdemu">
                 <pos>0.915 0.68</pos>
                 <origin>.50 0</origin>
                 <size>0.11 0.09</size>
@@ -861,7 +793,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
-            </text>
+            </text>-->
             <text name="mdlblemu">
                 <pos>0.83 0.675</pos>
                 <origin>.50 0</origin>
@@ -922,7 +854,7 @@
                 <origin>.50 0</origin>
                 <size>0.2 0</size>
                 <text>Players:</text>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.05</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -1150,7 +1082,7 @@
                 <origin>.50 0</origin>
                 <size>0.1 0.05</size>
                 <metadata>releasedate</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.022</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -1183,7 +1115,7 @@
                 <origin>.50 0</origin>
                 <size>0.08 0.05</size>
                 <metadata>developer</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.022</fontSize>
                 <lineSpacing>0.8</lineSpacing>
@@ -1215,7 +1147,7 @@
                 <origin>.50 0</origin>
                 <size>0.08 0.05</size>
                 <metadata>publisher</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.022</fontSize>
                 <lineSpacing>0.8</lineSpacing>
@@ -1247,7 +1179,7 @@
                 <origin>.50 0</origin>
                 <size>0.08 0.05</size>
                 <metadata>genre</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.022</fontSize>
                 <lineSpacing>0.8</lineSpacing>
@@ -1279,7 +1211,7 @@
                 <origin>.50 0</origin>
                 <size>0.08 0.05</size>
                 <metadata>lastplayed</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.022</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -1387,7 +1319,7 @@
                 <origin>.0 0</origin>
                 <size>0.05 0</size>
                 <metadata>players</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.025</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -1401,7 +1333,7 @@
                 <origin>.0 0</origin>
                 <size>0.07 0</size>
                 <text>Players:</text>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.025</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -1410,12 +1342,12 @@
                 <color>${primaryColor}</color>
                 <zIndex>29</zIndex>
             </text>
-            <text name="mdemu">
+            <!--<text name="mdemu">
                 <pos>0.7 0.43</pos>
                 <origin>.0 0</origin>
                 <size>0.09 0</size>
                 <metadata>emulator</metadata>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.025</fontSize>
                 <lineSpacing>1</lineSpacing>
@@ -1423,13 +1355,13 @@
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
                 <zIndex>29</zIndex>
-            </text>
+            </text>-->
             <text name="mdlbemu">
                 <pos>0.64 0.43</pos>
                 <origin>.0 0</origin>
                 <size>0.07 0</size>
                 <text>Emulator:</text>
-                <defaultValue>:space:?</defaultValue>
+                <defaultValue>:space:</defaultValue>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.025</fontSize>
                 <lineSpacing>1</lineSpacing>
