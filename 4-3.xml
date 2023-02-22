@@ -511,7 +511,7 @@
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.64 0.32</pos>
+                <pos>0.66 0.32</pos>
                 <origin>0 0</origin>
             </text>
         </view>
