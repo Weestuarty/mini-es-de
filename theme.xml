@@ -191,11 +191,7 @@
                 <zIndex>45</zIndex>
             </image>
 
-            
-            
 
-
-           
             <image name="consolegame">
                 <pos>0.8 0.35</pos>
                 <maxSize>0.3 0.1</maxSize>
@@ -206,16 +202,7 @@
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>13</zIndex>
             </image>
-            <image name="consolegame2">
-                <pos>0.23 0.6</pos>
-                <maxSize>0.5 0.15</maxSize>
-                <origin>0 0</origin>
-                <opacity>0.1</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
-                <color>${primaryColor}</color>
-                <colorEnd>${primaryColor}00</colorEnd>
-                <zIndex>14</zIndex>
-            </image>
+
             <image name="consolegame3">
                 <pos>-.03 0.11</pos>
                 <maxSize>0.45 0.1</maxSize>
@@ -257,7 +244,7 @@
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>15</zIndex>
             </image>
-            
+
         </view>
         <view name="system">
             <gameselector name="select">
@@ -344,7 +331,7 @@
         </view>
     </variant>
     <variant name="mega,megagrid">
-        <view name="system, gamelist">            
+        <view name="system, gamelist">
             <helpsystem name="help">
                 <pos>.65 0.975</pos>
                 <origin>1 1</origin>
@@ -356,7 +343,7 @@
         </view>
     </variant>
     <variant name="master,mastergrid">
-        <view name="system, gamelist">           
+        <view name="system, gamelist">
             <helpsystem name="help">
                 <pos>.65 0.945</pos>
                 <origin>1 1</origin>
@@ -375,7 +362,7 @@
             </helpsystem>
         </view>
     </variant>
-   
+
 
     <variant name="Snes, Snes2, Nes, mega, psx,master">
         <view name="system">
@@ -404,11 +391,8 @@
                 <path>./core/images/sysselect.png</path>
                 <color>${selectsysColor}</color>
             </image>
-
-
         </view>
         <view name="gamelist">
-
             <carousel name="game_carousel">
                 <pos>0.02 0.19</pos>
                 <size>0.3 .36</size>
@@ -429,15 +413,6 @@
                 <lineSpacing>1</lineSpacing>
                 <zIndex>29</zIndex>
             </carousel>
-
-        </view>
-
-
-        <view name="system">
-
-        </view>
-
-        <view name="gamelist">
             <image name="scroll">
                 <pos>0.17 0.13</pos>
                 <origin>0.5 0</origin>
@@ -570,8 +545,8 @@
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
-            
-           
+
+
             <image name="desc">
                 <pos>0.335 0.19</pos>
                 <size>0.2 0.61</size>
@@ -579,7 +554,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="description1">
                 <size>0.18 0.56</size>
                 <metadata>description</metadata>
@@ -610,7 +585,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <image name="meta3">
                 <pos>0.79 0.22</pos>
                 <size>0.19 0.15</size>
@@ -645,7 +620,7 @@
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
             </text>
-            
+
             <image name="meta4">
                 <pos>0.79 0.32</pos>
                 <size>0.19 0.15</size>
@@ -781,7 +756,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
-           <!-- <text name="mdemu">
+            <!-- <text name="mdemu">
                 <pos>0.915 0.68</pos>
                 <origin>.50 0</origin>
                 <size>0.11 0.09</size>
@@ -834,7 +809,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="mdplay">
                 <pos>0.935 0.825</pos>
                 <origin>.50 0</origin>
@@ -870,7 +845,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-           
+
             <text name="sourceinfo">
                 <size>0.4 0.1</size>
                 <metadata>systemFullname</metadata>
@@ -946,7 +921,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
-               
+
                 <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
             </badges>
 
@@ -1049,7 +1024,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="description1">
                 <size>0.26 0.34</size>
                 <metadata>description</metadata>
@@ -1069,7 +1044,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <image name="meta3">
                 <pos>0.83 0.16</pos>
                 <size>0.14 0.1</size>
@@ -1238,7 +1213,7 @@
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
-            
+
             <text name="sourceinfo">
                 <size>0.36 0.11</size>
                 <metadata>systemFullname</metadata>
@@ -1342,7 +1317,8 @@
                 <color>${primaryColor}</color>
                 <zIndex>29</zIndex>
             </text>
-            <!--<text name="mdemu">
+            <!--<text
+            name="mdemu">
                 <pos>0.7 0.43</pos>
                 <origin>.0 0</origin>
                 <size>0.09 0</size>
@@ -1411,7 +1387,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
-                
+
                 <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
             </badges>
             <gamelistinfo name="info">
