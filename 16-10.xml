@@ -93,7 +93,7 @@
                     <color>${primaryColor}</color>
                     <pos>0.03 0.13</pos>
                     <origin>0 0</origin>
-                    <zIndex>28</zIndex>
+                    <zIndex>46</zIndex>
                     </text>
                     <text name="collectionsSystemName">
                         <size>0.16 0.08</size>

@@ -213,7 +213,7 @@
                 <color>${primaryColor}</color>
                 <pos>0.02 0.13</pos>
                 <origin>0 0</origin>
-                <zIndex>28</zIndex>
+                <zIndex>46</zIndex>
             </text>
             <image name="meta">
                 <pos>0.82 0.11</pos>
