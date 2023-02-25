@@ -7,7 +7,7 @@
             <sysColor>AAAAAA</sysColor>
             <systextColor>12457C</systextColor>
             <sysmenuColor>FFFFFF</sysmenuColor>
-            <textColor>17569B</textColor>
+            <selectTextColor>DDDDDD</selectTextColor>
             <primaryColor>0755ab</primaryColor>
             <secondaryColor>17569B</secondaryColor>
             <selectgameColor>17569B</selectgameColor>
@@ -22,7 +22,7 @@
             <colorSchemeName>nes</colorSchemeName>
             <backgroundColor>111111</backgroundColor>
             <sysColor>FFFFFF</sysColor>
-            <systextColor>111111</systextColor>
+            <systextColor>DDDDDD</systextColor>
             <sysmenuColor>111111</sysmenuColor>
             <primaryColor>A50000</primaryColor>
             <secondaryColor>111111</secondaryColor>
@@ -40,7 +40,7 @@
             <sysColor>664400</sysColor>
             <systextColor>DDAA00</systextColor>
             <sysmenuColor>DDAA00</sysmenuColor>
-            <textColor>111111</textColor>
+            <selectTextColor>DDAA00</selectTextColor>
             <primaryColor>DDAA00</primaryColor>
             <secondaryColor>111111</secondaryColor>
             <selectgameColor>664400</selectgameColor>
@@ -57,7 +57,7 @@
             <sysColor>cec9cc</sysColor>            
             <systextColor>111111</systextColor>
             <sysmenuColor>cbb700</sysmenuColor>
-            <textColor>111111</textColor>
+            <selectTextColor>cbb700</selectTextColor>
             <primaryColor>cbb700</primaryColor>
             <secondaryColor>111111</secondaryColor>
             <selectgameColor>282400</selectgameColor>
@@ -74,6 +74,7 @@
             <sysColor>b19b4c</sysColor>
             <systextColor>111111</systextColor>
             <sysmenuColor>ce9b58</sysmenuColor>
+            <selectTextColor>ce9b58</selectTextColor>
             <primaryColor>ce9b58</primaryColor>
             <secondaryColor>1c4a26</secondaryColor>
             <selectgameColor>1c4a26</selectgameColor>
@@ -89,6 +90,7 @@
             <backgroundColor>1c4a26</backgroundColor>
             <sysColor>c8c9c7</sysColor>
             <systextColor>111111</systextColor>
+            <selectTextColor>ce9b58</selectTextColor>
             <sysmenuColor>ce9b58</sysmenuColor>
             <primaryColor>ce9b58</primaryColor>
             <secondaryColor>1c4a26</secondaryColor>
@@ -105,6 +107,7 @@
             <backgroundColor>151515</backgroundColor>
             <sysColor>c8c9c7</sysColor>
             <systextColor>111111</systextColor>
+            <selectTextColor>52307c</selectTextColor>
             <sysmenuColor>270e59</sysmenuColor>
             <primaryColor>8800c7</primaryColor>
             <secondaryColor>111111</secondaryColor>
@@ -121,6 +124,7 @@
             <backgroundColor>404040</backgroundColor>
             <sysColor>FFFFFF</sysColor>
             <systextColor>111111</systextColor>
+            <selectTextColor>808080</selectTextColor>
             <sysmenuColor>111111</sysmenuColor>
             <primaryColor>a0a0a0</primaryColor>
             <secondaryColor>111111</secondaryColor>
@@ -134,14 +138,15 @@
     <colorScheme name="usnesa">
         <variables>
             <colorSchemeName>usnesa</colorSchemeName>
-            <backgroundColor>908a99</backgroundColor>
+            <backgroundColor>cec9cc</backgroundColor>
             <sysColor>FFFFFF</sysColor>
             <systextColor>111111</systextColor>
+            <selectTextColor>111111</selectTextColor>
             <sysmenuColor>111111</sysmenuColor>
             <primaryColor>4f43ae</primaryColor>
             <secondaryColor>111111</secondaryColor>
             <selectgameColor>4f43ae</selectgameColor>
-            <gamegridColor>cec9cc</gamegridColor>
+            <gamegridColor>908a99</gamegridColor>
             <selectsysColor>4f43ae</selectsysColor>  
             <helpColor>404040</helpColor>
         </variables>
@@ -153,6 +158,7 @@
             <backgroundColor>111111</backgroundColor>
             <sysColor>FFFFFF</sysColor>
             <systextColor>111111</systextColor>
+            <selectTextColor>808080</selectTextColor>
             <sysmenuColor>111111</sysmenuColor>
             <primaryColor>808080</primaryColor>
             <secondaryColor>111111</secondaryColor>
@@ -169,6 +175,7 @@
             <backgroundColor>fe0002</backgroundColor>
             <sysColor>0001FC</sysColor>
             <systextColor>fe0002</systextColor>
+            <selectTextColor>0001fc</selectTextColor>
             <sysmenuColor>6a0400</sysmenuColor>
             <primaryColor>FFd987</primaryColor>
             <secondaryColor>FFd987</secondaryColor>
@@ -185,6 +192,7 @@
             <backgroundColor>561420</backgroundColor>
             <sysColor>c59a6f</sysColor>
             <systextColor>561420</systextColor>
+            <selectTextColor>c59a6f</selectTextColor>
             <sysmenuColor>ce9b58</sysmenuColor>
             <primaryColor>c59a6f</primaryColor>
             <secondaryColor>561420</secondaryColor>

@@ -188,7 +188,7 @@
                 <origin>0.5 0.5</origin>
                 <size>1.1 1</size>
                 <path>./core/images/scanline.png</path>
-                <zIndex>45</zIndex>
+                <zIndex>44</zIndex>
             </image>
 
 
@@ -396,7 +396,7 @@
                 <itemTransitions>instant</itemTransitions>
                 <type>vertical</type>
                 <imageType>none</imageType>
-                <textSelectedColor>${gamegridColor}</textSelectedColor>
+                <textSelectedColor>${selectTextColor}</textSelectedColor>
                 <color>11111100</color>
                 <maxItemCount>6.5</maxItemCount>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
@@ -559,7 +559,7 @@
                 <color>${primaryColor}</color>
                 <pos>0.345 0.22</pos>
                 <origin>0 0</origin>
-                <zIndex>28</zIndex>
+                <zIndex>44</zIndex>
             </text>
             <text name="collectionsSystemName">
                 <size>0.225 0.1</size>
@@ -1038,7 +1038,7 @@
                 <color>${primaryColor}</color>
                 <pos>0.04 0.13</pos>
                 <origin>0 0</origin>
-                <zIndex>28</zIndex>
+                <zIndex>46</zIndex>
             </text>
             <image name="meta">
                 <pos>0.81 0.11</pos>
