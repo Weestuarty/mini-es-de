@@ -95,12 +95,24 @@
                     <origin>0 0</origin>
                     <zIndex>28</zIndex>
                     </text>
+                    <text name="collectionsSystemName">
+                        <size>0.16 0.08</size>
+                        <fontPath>${primaryFont}</fontPath>
+                        <letterCase>capitalize</letterCase>
+                        <fontSize>0.022</fontSize>
+                        <lineSpacing>1</lineSpacing>
+                        <verticalAlignment>center</verticalAlignment>
+                        <horizontalAlignment>left</horizontalAlignment>
+                        <color>${primaryColor}</color>
+                        <pos>0.65 0.32</pos>
+                        <origin>0 0</origin>
+                    </text>
         <text name="sourceinfo">
             <size>0.36 0.06</size>
             <metadata>systemFullname</metadata>
             <fontPath>${primaryFont}</fontPath>
             <letterCase>capitalize</letterCase>
-            <fontSize>0.03</fontSize>
+            <fontSize>0.025</fontSize>
             <lineSpacing>1</lineSpacing>
             <verticalAlignment>center</verticalAlignment>
             <horizontalAlignment>center</horizontalAlignment>
@@ -115,7 +127,43 @@
             <metadata>players</metadata>
             <defaultValue>:space:?</defaultValue>
             <fontPath>${primaryFont}</fontPath>
-            <fontSize>0.025</fontSize>
+            <fontSize>0.022</fontSize>
+            <lineSpacing>1</lineSpacing>
+            <verticalAlignment>bottom</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${primaryColor}</color>
+            <zIndex>29</zIndex>
+        </text>
+        <text name="mdlbplay">
+                <pos>0.65 0.39</pos>
+                <origin>.0 0</origin>
+                <size>0.07 0</size>
+                <text>Players:</text>
+                <defaultValue>:space:</defaultValue>
+                <fontPath>${primaryFont}</fontPath>
+                <fontSize>0.022</fontSize>
+                <lineSpacing>1</lineSpacing>
+                <verticalAlignment>bottom</verticalAlignment>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${primaryColor}</color>
+                <zIndex>29</zIndex>
+            </text>
+            <rating name="rating">
+                <pos>0.655 0.2</pos>
+                <size>0.04 0.035</size>
+                <interpolation>nearest</interpolation>
+                <color>${primaryColor}</color>
+                <filledPath>./core/images/rating_filled.svg</filledPath>
+                <unfilledPath>./core/images/rating_empty.svg</unfilledPath>
+            </rating>
+        <text name="mdlbemu">
+            <pos>0.65 0.43</pos>
+            <origin>.0 0</origin>
+            <size>0.07 0</size>
+            <text>Emulator:</text>
+            <defaultValue>:space:</defaultValue>
+            <fontPath>${primaryFont}</fontPath>
+            <fontSize>0.022</fontSize>
             <lineSpacing>1</lineSpacing>
             <verticalAlignment>bottom</verticalAlignment>
             <horizontalAlignment>left</horizontalAlignment>
@@ -125,11 +173,11 @@
         <text name="mdemu">
             <pos>0.71 0.43</pos>
             <origin>.0 0</origin>
-            <size>0.09 0.07</size>
+            <size>0.1 0.07</size>
             <metadata>emulator</metadata>
             <defaultValue>:space:?</defaultValue>
             <fontPath>${primaryFont}</fontPath>
-            <fontSize>0.025</fontSize>
+            <fontSize>0.022</fontSize>
             <lineSpacing>1</lineSpacing>
             <verticalAlignment>top</verticalAlignment>
             <horizontalAlignment>left</horizontalAlignment>

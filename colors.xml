@@ -134,14 +134,14 @@
     <colorScheme name="usnesa">
         <variables>
             <colorSchemeName>usnesa</colorSchemeName>
-            <backgroundColor>cec9cc</backgroundColor>
+            <backgroundColor>908a99</backgroundColor>
             <sysColor>FFFFFF</sysColor>
             <systextColor>111111</systextColor>
             <sysmenuColor>111111</sysmenuColor>
             <primaryColor>4f43ae</primaryColor>
             <secondaryColor>111111</secondaryColor>
-            <selectgameColor>b5b6e4</selectgameColor>
-            <gamegridColor>908a99</gamegridColor>
+            <selectgameColor>4f43ae</selectgameColor>
+            <gamegridColor>cec9cc</gamegridColor>
             <selectsysColor>4f43ae</selectsysColor>  
             <helpColor>404040</helpColor>
         </variables>
