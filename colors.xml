@@ -23,6 +23,7 @@
             <backgroundColor>111111</backgroundColor>
             <sysColor>FFFFFF</sysColor>
             <systextColor>DDDDDD</systextColor>
+            <selectTextColor>DDDDDD</selectTextColor>
             <sysmenuColor>111111</sysmenuColor>
             <primaryColor>A50000</primaryColor>
             <secondaryColor>111111</secondaryColor>
