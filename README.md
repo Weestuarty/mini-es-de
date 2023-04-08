@@ -2,6 +2,8 @@
 
 ESDEmini is a theme set for ES-DE that supports all systems as well as the latest application features.
 
+Thanks to Simon Butler for additional pixel art (available to buy here https://dinosaur-pie.co.uk/ )
+
 ![systems](sys.png)
 ![systems2](sys2.png)
 ![games](game.png)
