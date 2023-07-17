@@ -1,0 +1,15 @@
+<theme>
+   <variables>
+      <systemDescription>Mario is a character created by Japanese video game designer Shigeru Miyamoto. He is the title character of the video game franchise of the same name and the mascot of Japanese video game company Nintendo. Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities. Mario's brother is Luigi.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1981</systemReleaseYear>
+      <systemReleaseDate>&#032;</systemReleaseDate>
+      <systemReleaseDateFormated>&#032;</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemColor>777777</systemColor>
+      <systemColorPalette1>e95252</systemColorPalette1>
+      <systemColorPalette2>f8ecc2</systemColorPalette2>
+      <systemColorPalette3>005ebf</systemColorPalette3>
+      <systemColorPalette4>af6816</systemColorPalette4>
+   </variables>
+</theme>
