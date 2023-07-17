@@ -197,7 +197,7 @@
                 <maxSize>0.3 0.1</maxSize>
                 <origin>0 0</origin>
                 <opacity>0.15</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
+                <path>./system/logos/system-logo-white/${system.theme}.svg</path>
                 <color>${primaryColor}</color>
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>13</zIndex>
@@ -208,7 +208,7 @@
                 <maxSize>0.45 0.1</maxSize>
                 <origin>0 0</origin>
                 <opacity>0.05</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
+                <path>./system/logos/system-logo-white/${system.theme}.svg</path>
                 <color>${primaryColor}</color>
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>15</zIndex>
@@ -218,7 +218,7 @@
                 <maxSize>0.4 0.15</maxSize>
                 <origin>0 0</origin>
                 <opacity>0.08</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
+                <path>./system/logos/system-logo-white/${system.theme}.svg</path>
                 <color>${primaryColor}</color>
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>13</zIndex>
@@ -228,7 +228,7 @@
                 <maxSize>0.3 0.1</maxSize>
                 <origin>0 0</origin>
                 <opacity>0.12</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
+                <path>./system/logos/system-logo-white/${system.theme}.svg</path>
                 <color>${primaryColor}</color>
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>13</zIndex>
@@ -239,7 +239,7 @@
                 <maxSize>0.35 0.125</maxSize>
                 <origin>0 0</origin>
                 <opacity>0.15</opacity>
-                <path>./core/systems/${system.theme}.svg</path>
+                <path>./system/logos/system-logo-white/${system.theme}.svg</path>
                 <color>${primaryColor}</color>
                 <colorEnd>${primaryColor}00</colorEnd>
                 <zIndex>15</zIndex>
