@@ -886,10 +886,10 @@
                 <size>0.4 .08</size>
                 <direction>row</direction>
                 <lines>1</lines>
-                <itemsPerLine>7</itemsPerLine>
+                <itemsPerLine>6</itemsPerLine>
                 <itemMargin>0.001 0.001</itemMargin>
                 <horizontalAlignment>center</horizontalAlignment>
-                <slots>controller, completed, favorite, altemulator, kidgame, collection, folder</slots>
+                <slots>controller, completed, favorite, altemulator, kidgame,manual</slots>
                 <controllerPos>0.5 0.43</controllerPos>
                 <controllerSize>0.85</controllerSize>
                 <folderLinkSize>0.5 0.3</folderLinkSize>
@@ -897,6 +897,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
+                <customBadgeIcon badge="manual">./core/badges/manual.png</customBadgeIcon>
                 <customBadgeIcon badge="folder">./core/badges/folder.png</customBadgeIcon>
                 <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
                 <customBadgeIcon badge="kidgame">./core/badges/kid.png</customBadgeIcon>
@@ -1356,7 +1357,7 @@
                 <itemsPerLine>4</itemsPerLine>
                 <itemMargin>0.001 0.001</itemMargin>
                 <horizontalAlignment>center</horizontalAlignment>
-                <slots>controller, completed, favorite, altemulator, kidgame, collection, folder</slots>
+                <slots>controller, completed, favorite, altemulator, kidgame, collection, folder, manual</slots>
                 <controllerPos>0.5 0.43</controllerPos>
                 <controllerSize>0.85</controllerSize>
                 <folderLinkSize>0.5 0.3</folderLinkSize>
@@ -1364,6 +1365,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <customFolderLinkIcon>./core/badges/link.png</customFolderLinkIcon>
                 <badgeIconColor>${primaryColor}</badgeIconColor>
+                <customBadgeIcon badge="manual">./core/badges/manual.png</customBadgeIcon>
                 <customBadgeIcon badge="folder">./core/badges/folder.png</customBadgeIcon>
                 <customBadgeIcon badge="broken">./core/badges/broken.png</customBadgeIcon>
                 <customBadgeIcon badge="kidgame">./core/badges/kid.png</customBadgeIcon>
