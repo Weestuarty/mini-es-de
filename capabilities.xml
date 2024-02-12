@@ -4,6 +4,10 @@
 
 <themeCapabilities>
 
+    <fontSize>medium</fontSize>
+    <fontSize>large</fontSize>
+    <fontSize>x-large</fontSize>
+
     <suppressTransitionProfiles>
         <entry>builtin-instant</entry>
         <entry>builtin-slide</entry>

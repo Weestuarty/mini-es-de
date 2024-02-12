@@ -7,46 +7,50 @@
                 <gameCount>1</gameCount>
             </gameselector>
             <text name="gamecount">
-                <pos>0.3 0.225</pos>
-                <fontSize>0.04</fontSize>
+                <pos>0.075 0.25</pos>
+                <fontSize>${sysfont}</fontSize>
             </text>
             <text name="gamesys">
-                
-                <fontSize>0.04</fontSize>
+                <pos>0.075 0.15</pos>
+                <size>0.9 0.036</size>
+                <fontSize>${sysfont}</fontSize>
                
             </text>
             <text name="game">
                 
-                <fontSize>0.04</fontSize>
+                <pos>0.075 0.2</pos>
+                <fontSize>${sysfont}</fontSize>
                 
             </text>
             <text name="game3">
                 
                 
-                <fontSize>0.04</fontSize>
+                <pos>0.075 0.35</pos>
+                <fontSize>${sysfont}</fontSize>
                
             </text>
             <image name="gamecount2">
+                
                 <pos>0.575 0.42</pos>
             </image>
 
             <helpsystem name="help">
-                <pos>.73 0.95</pos>
-                <origin>1 1</origin>
+                <pos>.02 0.95</pos>
+                <origin>0 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.018</fontSize>
+                <fontSize>${helpfont2}</fontSize>
             </helpsystem>            
         </view>
         <view name="gamelist">
             <helpsystem name="help">
-                <pos>0.74 0.95</pos>
-                <origin>1 1</origin>
+                <pos>0.02 0.95</pos>
+                <origin>0 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.014</fontSize>
+                <fontSize>${helpfont2}</fontSize>
             </helpsystem>
             
         </view>
@@ -76,7 +80,7 @@
                 <zIndex>29</zIndex>
             </grid>
             <image name="gamecount2">
-                <pos>0.575 0.36</pos>
+                <pos>0.625 0.36</pos>
                 <origin>0.5 0.5</origin>
                 <maxSize>0.38 0.22</maxSize>
                 <imageType>marquee</imageType>
@@ -84,12 +88,11 @@
                 <gameselectorEntry>1</gameselectorEntry>
             </image>
             <text name="gamecount">
-                <pos>0.3 0.2</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>${sysfont}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
@@ -170,17 +173,17 @@
                 <origin>.50 0</origin>
             </text>
             <text name="sourceinfo">
-                <size>0.52 0.05</size>
+                <size>0.7 0.05</size>
                 <metadata>systemFullname</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.025</fontSize>
+                <fontSize>${gametitle}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.34 0.13</pos>
-                <origin>. 0</origin>
+                <pos>0.3 0.115</pos>
+                <origin>0 0</origin>
             </text>
             <gamelistinfo name="info">
                 <pos>0.92 0.13</pos>
@@ -207,7 +210,7 @@
                 <size>0.26 0.34</size>
                 <metadata>description</metadata>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>${metaDesc}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <color>${primaryColor}</color>
@@ -385,16 +388,16 @@
                 <color>${primaryColor}</color>
             </text>
             <text name="sourceinfo2">
-                <size>0.18 0.11</size>
+                <size>0.3 0.11</size>
                 <metadata>name</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.022</fontSize>
+                <fontSize>${gamename}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.66 0.2</pos>
+                <pos>0.66 0.3</pos>
                 <origin>0 0</origin>
             </text>
             <text name="mdplay">
@@ -481,16 +484,16 @@
                 <size>0.075 .075</size>
             </badges>
             <text name="sourceinfo">
-                <size>0.37 0.05</size>
+                <size>0.7 0.05</size>
                 <metadata>systemFullname</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.025</fontSize>
+                <fontSize>${gametitle}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.33 0.115</pos>
+                <pos>0.3 0.115</pos>
                 <origin>0 0</origin>
             </text>
             <gamelistinfo name="info">
@@ -521,12 +524,10 @@
             
             
             <helpsystem name="help">
-                <pos>.65 0.975</pos>
-                <origin>1 1</origin>
+               <pos>0.02 0.96</pos>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>DDDDDD</textColor>
                 <iconColor>DDDDDD</iconColor>
-                <fontSize>0.018</fontSize>
             </helpsystem>
         </view>
     </variant>
@@ -534,7 +535,7 @@
     <variant name="psx,psxgrid">
         <view name="system, gamelist">
             <helpsystem name="help">
-                <pos>.7 0.975</pos>
+                
                 
             </helpsystem>
         </view>
@@ -543,12 +544,10 @@
         <view name="system, gamelist">
                         
             <helpsystem name="help">
-                <pos>.65 0.945</pos>
-                <origin>1 1</origin>
+               <pos>0.02 0.945</pos>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>DDDDDD</textColor>
                 <iconColor>DDDDDD</iconColor>
-                <fontSize>0.02</fontSize>
             </helpsystem>
         </view>
     </variant>

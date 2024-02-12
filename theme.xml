@@ -7,11 +7,10 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
+    <include>./font.xml</include>
 
     <variables>
-        <primaryFont>./core/fonts/berlin.ttf</primaryFont>
-        <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
-        <altFont>./core/fonts/upheavtt.ttf</altFont>
+       
     </variables>
 
     <aspectRatio name="4:3">
@@ -252,12 +251,12 @@
                 <gameCount>1</gameCount>
             </gameselector>
             <text name="gamecount">
-                <pos>0.32 0.225</pos>
+                <pos>0.15 0.275</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.06</fontSize>
+                <fontSize>${sysfont}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
@@ -268,7 +267,7 @@
                 <systemdata>fullname</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.06</fontSize>
+                <fontSize>${sysfont}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
@@ -279,7 +278,7 @@
                 <text>contains</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.06</fontSize>
+                <fontSize>${sysfont}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
@@ -290,7 +289,7 @@
                 <text>including:</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
-                <fontSize>0.06</fontSize>
+                <fontSize>${sysfont}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
@@ -305,46 +304,46 @@
             </image>
 
             <helpsystem name="help">
-                <pos>.73 0.945</pos>
+                <pos>.73 0.95</pos>
                 <origin>1 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.02</fontSize>
+                <fontSize>${helpfont}</fontSize>
             </helpsystem>
         </view>
         <view name="gamelist">
             <helpsystem name="help">
-                <pos>0.73 0.945</pos>
-                <origin>1 1</origin>
+                <pos>0.425 0.945</pos>
+                <origin>0.5 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
-                <fontSize>0.018</fontSize>
+                <fontSize>${helpfont}</fontSize>
             </helpsystem>
         </view>
     </variant>
     <variant name="mega,megagrid">
         <view name="system, gamelist">
             <helpsystem name="help">
-                <pos>.65 0.975</pos>
-                <origin>1 1</origin>
+                <pos>0.01 0.975</pos>
+                <origin>0 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>DDDDDD</textColor>
                 <iconColor>DDDDDD</iconColor>
-                <fontSize>0.02</fontSize>
+                <fontSize>${helpfont}</fontSize>
             </helpsystem>
         </view>
     </variant>
     <variant name="master,mastergrid">
         <view name="system, gamelist">
             <helpsystem name="help">
-                <pos>.65 0.945</pos>
-                <origin>1 1</origin>
+                <pos>.01 0.945</pos>
+                <origin>0 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>DDDDDD</textColor>
                 <iconColor>DDDDDD</iconColor>
-                <fontSize>0.02</fontSize>
+                <fontSize>${helpfont}</fontSize>
             </helpsystem>
         </view>
     </variant>
@@ -352,7 +351,7 @@
     <variant name="psx,psxgrid">
         <view name="system, gamelist">
             <helpsystem name="help">
-                <pos>.7 0.975</pos>
+                <pos>.5 0.975</pos>
             </helpsystem>
         </view>
     </variant>
@@ -389,7 +388,7 @@
         <view name="gamelist">
             <carousel name="game_carousel">
                 <pos>0.02 0.19</pos>
-                <size>0.3 .36</size>
+                <size>${carsize}</size>
                 <itemSize>0.29 0.58</itemSize>
                 <itemScale>1</itemScale>
                 <systemNameSuffix>false</systemNameSuffix>
@@ -398,11 +397,11 @@
                 <imageType>none</imageType>
                 <textSelectedColor>${selectTextColor}</textSelectedColor>
                 <color>11111100</color>
-                <maxItemCount>6.5</maxItemCount>
+                <maxItemCount>${carspace}</maxItemCount>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <textColor>${secondaryColor}</textColor>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.018</fontSize>
+                <fontSize>${cartext}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>1</lineSpacing>
                 <zIndex>29</zIndex>
@@ -426,105 +425,105 @@
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain">
-                <pos>0.02 0.1775</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid2}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak">
-                <pos>0.02 0.1775</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid2}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain2">
-                <pos>0.02 0.235</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid3}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak2">
-                <pos>0.02 0.235</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid3}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain3">
-                <pos>0.02 0.29</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid4}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak3">
-                <pos>0.02 0.29</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid4}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain4">
-                <pos>0.02 0.345</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid5}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${selectgameColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak4">
-                <pos>0.02 0.345</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid5}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain5">
-                <pos>0.02 0.4</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid6}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak5">
-                <pos>0.02 0.4</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid6}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain6">
-                <pos>0.02 0.455</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid7}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak6">
-                <pos>0.02 0.455</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid7}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmain7">
-                <pos>0.02 0.5125</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid8}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec1.svg</path>
                 <color>${gamegridColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="carmainbak7">
-                <pos>0.02 0.5125</pos>
-                <size>0.3 0.05</size>
+                <pos>${gameGrid8}</pos>
+                <size>${gameGrid}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="scroll3">
-                <pos>0.17 0.57</pos>
+                <pos>${arrowpos}</pos>
                 <origin>0.5 0</origin>
                 <size>0.06 0.04</size>
                 <path>./core/images/arrow.svg</path>
@@ -532,7 +531,7 @@
                 <zIndex>29</zIndex>
             </image>
             <image name="scroll4">
-                <pos>0.17 0.57</pos>
+                <pos>${arrowpos}</pos>
                 <origin>0.5 0</origin>
                 <size>0.06 0.04</size>
                 <path>./core/images/arrow1.svg</path>
@@ -543,21 +542,21 @@
 
             <image name="desc">
                 <pos>0.335 0.19</pos>
-                <size>0.2 0.61</size>
+                <size>${metabox}</size>
                 <path>./core/images/metabox1.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
             </image>
 
             <text name="description1">
-                <size>0.18 0.56</size>
+                <size>${descbox}</size>
                 <metadata>description</metadata>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>${metaDesc}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.345 0.22</pos>
+                <pos>${descpos}</pos>
                 <origin>0 0</origin>
                 <zIndex>44</zIndex>
             </text>
@@ -570,6 +569,7 @@
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${primaryColor}</color>
                 <pos>0.66 0.7</pos>
+                <visible>${gamevis}</visible>
                 <origin>.50 0</origin>
             </text>
             <image name="meta">
@@ -577,6 +577,7 @@
                 <size>0.2 0.61</size>
                 <path>./core/images/metabox1.svg</path>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>26</zIndex>
             </image>
 
@@ -585,6 +586,7 @@
                 <size>0.19 0.15</size>
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>28</zIndex>
             </image>
             <datetime name="mdrelease">
@@ -601,6 +603,7 @@
                 <horizontalAlignment>right</horizontalAlignment>
                 <gameselector>1</gameselector>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </datetime>
             <text name="mdlbrelease">
                 <pos>0.83 0.185</pos>
@@ -613,6 +616,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
 
             <image name="meta4">
@@ -620,6 +624,7 @@
                 <size>0.19 0.15</size>
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>28</zIndex>
             </image>
             <text name="mddeveloper">
@@ -634,6 +639,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlbdev">
                 <pos>0.83 0.285</pos>
@@ -646,6 +652,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta5">
                 <pos>0.79 0.42</pos>
@@ -653,6 +660,7 @@
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <text name="mdpub">
                 <pos>0.915 0.39</pos>
@@ -666,6 +674,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlbpub">
                 <pos>0.83 0.385</pos>
@@ -678,12 +687,14 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta6">
                 <pos>0.79 0.52</pos>
                 <size>0.19 0.15</size>
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>28</zIndex>
             </image>
             <text name="mdgen">
@@ -698,6 +709,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlbgen">
                 <pos>0.83 0.485</pos>
@@ -710,6 +722,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta7">
                 <pos>0.79 0.62</pos>
@@ -717,6 +730,7 @@
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <datetime name="mdlp">
                 <pos>0.915 0.595</pos>
@@ -730,6 +744,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </datetime>
             <text name="mdlblp">
                 <pos>0.83 0.585</pos>
@@ -742,6 +757,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta8">
                 <pos>0.79 0.71</pos>
@@ -749,6 +765,7 @@
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <text name="mdemu">
                 <pos>0.915 0.68</pos>
@@ -762,6 +779,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlblemu">
                 <pos>0.83 0.675</pos>
@@ -774,23 +792,24 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="disp">
-                <pos>0.54 0.395</pos>
+                <pos>${vidbackpos}</pos>
                 <size>0.24 0.3075</size>
                 <path>./core/images/rectangle.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>30</zIndex>
             </image>
             <image name="disp1">
-                <pos>0.54 0.395</pos>
+                <pos>${vidbackpos}</pos>
                 <size>0.24 0.3075</size>
                 <path>./core/images/rectangleback.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
             </image>
             <image name="marquee">
-                <pos>0.66 0.295</pos>
+                <pos>${marqpos}</pos>
                 <origin>0.5 0.5</origin>
                 <maxSize>0.225 0.19</maxSize>
                 <imageType>marquee</imageType>
@@ -801,6 +820,7 @@
                 <origin>0.5 0.5</origin>
                 <maxSize>0.2 0.26</maxSize>
                 <imageType>cover</imageType>
+                <visible>${gamevis}</visible>
                 <zIndex>26</zIndex>
             </image>
             <image name="below">
@@ -844,15 +864,16 @@
                 <size>0.66 0.08</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>26</zIndex>
             </image>
 
             <text name="sourceinfo">
-                <size>0.4 0.1</size>
+                <size>${titlelength}</size>
                 <metadata>systemFullname</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.035</fontSize>
+                <fontSize>${gametitle}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>center</horizontalAlignment>
@@ -868,9 +889,10 @@
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.03</fontSize>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </gamelistinfo>
             <video name="md_video">
-                <pos>0.66 0.55</pos>
+                <pos>${vidpos}</pos>
                 <maxSize>0.23 0.285</maxSize>
                 <origin>0.5 0.5</origin>
                 <imageType>titlescreen, screenshot</imageType>
@@ -943,10 +965,10 @@
 
         <view name="system">
             <grid name="system_grid">
-                <pos>0.0 0.5</pos>
-                <size>1 .5</size>
+                <pos>0.0 0.4</pos>
+                <size>1 .6</size>
                 <staticImage>./core/banner/${system.theme}.png</staticImage>
-                <itemSize>0.1 0.2</itemSize>
+                <itemSize>${gridSize}</itemSize>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1</itemScale>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
@@ -965,7 +987,7 @@
             </grid>
             
             <text name="gamecount">
-                <pos>0.32 0.2</pos>
+                <pos>0.15 0.25</pos>
                 <size>0.3 0.036</size>
             </text>
             <text name="gamesys">
@@ -983,7 +1005,7 @@
                 <text>including:</text>
             </text>
             <image name="gamecount2">
-                <pos>0.55 0.375</pos>
+                <pos>0.55 0.3</pos>
                 <origin>0.5 0.5</origin>
                 <maxSize>0.35 0.2</maxSize>
                 <imageType>marquee</imageType>
@@ -996,7 +1018,7 @@
                 <pos>0.5 0.5</pos>
                 <origin>0.5 0</origin>
                 <size>1 .4</size>
-                <itemSize>0.2 0.096</itemSize>
+                <itemSize>${gameGrid}</itemSize>
                 <itemSpacing>0.0 0.004</itemSpacing>
                 <backgroundImage>./core/images/gridback.svg</backgroundImage>
                 <backgroundRelativeScale>0.975</backgroundRelativeScale>
@@ -1033,7 +1055,7 @@
                 <size>0.26 0.34</size>
                 <metadata>description</metadata>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>${metaDesc}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <color>${primaryColor}</color>
@@ -1047,14 +1069,16 @@
                 <path>./core/images/metabox1.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
+                <visible>${gamevis}</visible>
             </image>
-
+            
             <image name="meta3">
                 <pos>0.83 0.16</pos>
                 <size>0.14 0.1</size>
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <datetime name="mdrelease">
                 <pos>0.915 0.15</pos>
@@ -1069,6 +1093,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </datetime>
             <text name="mdlbrelease">
                 <pos>0.87 0.12</pos>
@@ -1081,12 +1106,14 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta4">
                 <pos>0.83 0.22</pos>
                 <size>0.14 0.1</size>
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>28</zIndex>
             </image>
             <text name="mddeveloper">
@@ -1101,6 +1128,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlbdev">
                 <pos>0.87 0.18</pos>
@@ -1113,6 +1141,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta5">
                 <pos>0.83 0.28</pos>
@@ -1120,6 +1149,7 @@
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <text name="mdpub">
                 <pos>0.925 0.27</pos>
@@ -1133,6 +1163,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlbpub">
                 <pos>0.87 0.24</pos>
@@ -1145,6 +1176,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta6">
                 <pos>0.83 0.34</pos>
@@ -1152,6 +1184,7 @@
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <text name="mdgen">
                 <pos>0.925 0.33</pos>
@@ -1165,6 +1198,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <text name="mdlbgen">
                 <pos>0.87 0.3</pos>
@@ -1177,6 +1211,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="meta7">
                 <pos>0.83 0.4</pos>
@@ -1184,6 +1219,7 @@
                 <path>./core/images/meta.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>28</zIndex>
+                <visible>${gamevis}</visible>
             </image>
             <datetime name="mdlp">
                 <pos>0.925 0.39</pos>
@@ -1197,6 +1233,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>right</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </datetime>
             <text name="mdlblp">
                 <pos>0.87 0.36</pos>
@@ -1209,6 +1246,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </text>
             <image name="above">
                 <pos>0.32 0.11</pos>
@@ -1216,14 +1254,15 @@
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
+                <visible>${gamevis}</visible>
             </image>
-
+            
             <text name="sourceinfo">
-                <size>0.36 0.11</size>
+                <size>${titlelength}</size>
                 <metadata>systemFullname</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.035</fontSize>
+                <fontSize>${gametitle}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>center</horizontalAlignment>
@@ -1231,6 +1270,7 @@
                 <pos>0.34 0.085</pos>
                 <origin>0 0</origin>
             </text>
+            
             <video name="md_video">
                 <pos>0.525 0.33</pos>
                 <maxSize>0.23 0.285</maxSize>
@@ -1269,23 +1309,23 @@
                 <unfilledPath>./core/images/rating_empty.svg</unfilledPath>
             </rating>
             <text name="sourceinfo2">
-                <size>0.16 0.11</size>
+                <size>${gamenamebox}</size>
                 <metadata>name</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <systemNameSuffix>false</systemNameSuffix>
-                <fontSize>0.025</fontSize>
+                <fontSize>${gamename}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.65 0.22</pos>
+                <pos>${gamenamepos}</pos>
                 <origin>0 0</origin>
             </text>
             <text name="collectionsSystemName">
-                <size>0.16 0.08</size>
+                <size>${gamenamebox}</size>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
-                <fontSize>0.025</fontSize>
+                <fontSize>${gamename}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -1305,6 +1345,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>29</zIndex>
             </text>
             <text name="mdlbplay">
@@ -1319,6 +1360,8 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                
+                <visible>${gamevis}</visible>
                 <zIndex>29</zIndex>
             </text>
             <text name="mdemu">
@@ -1333,6 +1376,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>29</zIndex>
             </text>
             <text name="mdlbemu">
@@ -1347,6 +1391,7 @@
                 <verticalAlignment>bottom</verticalAlignment>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
                 <zIndex>29</zIndex>
             </text>
             <badges name="all">
@@ -1402,6 +1447,7 @@
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.03</fontSize>
                 <color>${primaryColor}</color>
+                <visible>${gamevis}</visible>
             </gamelistinfo>
         </view>
     </variant>
