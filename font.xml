@@ -1,0 +1,159 @@
+<theme>
+
+    <variables>
+        <primaryFont>./core/fonts/berlin.ttf</primaryFont>
+        <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
+        <altFont>./core/fonts/upheavtt.ttf</altFont>
+
+    </variables>
+
+
+    <variant name="Snesgrid, Nesgrid, Snes2grid, megagrid, psxgrid, mastergrid">
+        <fontSize name="medium">
+            <variables>
+                <sysfont>0.06</sysfont>
+                <helpfont>0.02</helpfont>
+                <helpfont2>0.0225</helpfont2>
+                <gridSize>0.125 0.24</gridSize>
+
+                <gameGrid>0.2 0.096</gameGrid>
+                <metaDesc>0.025</metaDesc>
+                <gamevis>true</gamevis>
+                <gametitle>0.035</gametitle>
+                <gamename>0.025</gamename>
+                <gamenamebox>0.16 0.11</gamenamebox>
+                <titlelength>0.36 0.11</titlelength>
+                <gamenamepos>0.65 0.22</gamenamepos>
+            </variables>
+        </fontSize>
+        <fontSize name="large">
+            <variables>
+                <sysfont>0.07</sysfont>
+                <helpfont>0.0275</helpfont>
+                <helpfont2>0.025</helpfont2>
+                <gridSize>0.125 0.24</gridSize>
+
+                <gameGrid>0.25 0.128</gameGrid>
+                <metaDesc>0.035</metaDesc>
+                <gamevis>false</gamevis>
+                <gametitle>0.0525</gametitle>
+                <gamename>0.0375</gamename>
+                <gamenamebox>0.35 0.11</gamenamebox>
+                <titlelength>0.45 0.11</titlelength>
+                <gamenamepos>0.65 0.22</gamenamepos>
+            </variables>
+        </fontSize>
+
+        <fontSize name="x-large">
+            <variables>
+                <sysfont>0.1</sysfont>
+                <helpfont>0.035</helpfont>
+                <helpfont2>0.0275</helpfont2>
+                <gridSize>0.1666 0.3</gridSize>
+                <gameGrid>0.333 0.192</gameGrid>
+                <metaDesc>0.045</metaDesc>
+                <gamevis>false</gamevis>
+                <gametitle>0.07</gametitle>
+                <gamename>0.05</gamename>
+                <gamenamebox>0.35 0.11</gamenamebox>
+                <titlelength>0.6 0.11</titlelength>
+                <gamenamepos>0.65 0.25</gamenamepos>
+            </variables>
+        </fontSize>
+    </variant>
+
+    <variant name="Snes, Snes2, Nes, mega, psx,master">
+        <fontSize name="medium">
+            <variables>
+                <sysfont>0.06</sysfont>
+                <helpfont>0.02</helpfont>
+                <helpfont2>0.0225</helpfont2>
+                <gameGrid>0.3 0.05</gameGrid>
+                <gameGrid2>0.02 0.1775</gameGrid2>
+                <gameGrid3>0.02 0.235</gameGrid3>
+                <gameGrid4>0.02 0.29</gameGrid4>
+                <gameGrid5>0.02 0.345</gameGrid5>
+                <gameGrid6>0.02 0.4</gameGrid6>
+                <gameGrid7>0.02 0.455</gameGrid7>
+                <gameGrid8>0.02 0.51255</gameGrid8>
+                <cartext>0.018</cartext>
+                <carspace>6.5</carspace>
+                <arrowpos>0.17 0.57</arrowpos>
+                <carsize>0.3 .36</carsize>
+                <metaDesc>0.025</metaDesc>
+                <descbox>0.18 0.56</descbox>
+                <descpos>0.345 0.22</descpos>
+                <gamevis>true</gamevis>
+                <marqpos>0.66 0.295</marqpos>
+                <vidpos>0.66 0.55</vidpos>
+                <vidbackpos>0.54 0.395</vidbackpos>
+                <metabox>0.2 0.61</metabox>
+                <descbox>0.18 0.56</descbox>
+                <gametitle>0.035</gametitle>
+                <titlelength>0.4 0.1</titlelength>
+            </variables>
+        </fontSize>
+        <fontSize name="large">
+            <variables>
+                <sysfont>0.07</sysfont>
+                <helpfont>0.0275</helpfont>
+                <helpfont2>0.025</helpfont2>
+                <gameGrid>0.3 0.1</gameGrid>
+                <gameGrid2>0.02 0.1775</gameGrid2>
+                <gameGrid3>0.02 0.27</gameGrid3>
+                <gameGrid4>0.02 0.36</gameGrid4>
+                <gameGrid5>0.02 0.45</gameGrid5>
+                <gameGrid6>0.02 0.54</gameGrid6>
+                <gameGrid7>0.02 0.63</gameGrid7>
+                <gameGrid8>0.02 0.7255</gameGrid8>
+                <cartext>0.03</cartext>
+                <carspace>6.8</carspace>
+                <arrowpos>0.17 0.825</arrowpos>
+                <carsize>0.3 .62</carsize>
+                <metaDesc>0.035</metaDesc>
+                <marqpos>0.86 0.295</marqpos>
+                <vidpos>0.86 0.55</vidpos>
+                <vidbackpos>0.74 0.395</vidbackpos>
+                <metabox>0.4 0.61</metabox>
+                <descbox>0.36 0.56</descbox>
+                <descpos>0.355 0.22</descpos>
+                <gamevis>false</gamevis>
+                <gametitle>0.0525</gametitle>
+                <titlelength>0.45 0.11</titlelength>
+            </variables>
+        </fontSize>
+
+        <fontSize name="x-large">
+            <variables>
+                <sysfont>0.1</sysfont>
+                <helpfont>0.035</helpfont>
+                <helpfont2>0.0275</helpfont2>
+                <gameGrid>0.3 0.1</gameGrid>
+                <gameGrid2>0.02 0.1775</gameGrid2>
+                <gameGrid3>0.02 0.27</gameGrid3>
+                <gameGrid4>0.02 0.36</gameGrid4>
+                <gameGrid5>0.02 0.45</gameGrid5>
+                <gameGrid6>0.02 0.54</gameGrid6>
+                <gameGrid7>0.02 0.63</gameGrid7>
+                <gameGrid8>0.02 0.7255</gameGrid8>
+                <cartext>0.035</cartext>
+                <carspace>6.8</carspace>
+                <arrowpos>0.17 0.825</arrowpos>
+                <carsize>0.3 .62</carsize>
+                <metaDesc>0.045</metaDesc>
+                <marqpos>0.86 0.295</marqpos>
+                <vidpos>0.86 0.55</vidpos>
+                <vidbackpos>0.74 0.395</vidbackpos>
+                <metabox>0.4 0.61</metabox>
+                <descbox>0.36 0.56</descbox>
+                <descpos>0.355 0.22</descpos>
+                <gamevis>false</gamevis>
+                <gametitle>0.07</gametitle>
+                <titlelength>0.6 0.11</titlelength>
+            </variables>
+        </fontSize>
+
+    </variant>
+
+
+</theme>
