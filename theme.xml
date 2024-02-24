@@ -1018,13 +1018,13 @@
                 <itemSpacing>0.0 0.0</itemSpacing>
                 <imageType>cover</imageType>
                 <imageRelativeScale>1</imageRelativeScale>
-                <itemScale>1.1</itemScale>
+                <itemScale>1.2</itemScale>
                 <systemNameSuffix>false</systemNameSuffix>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <selectorLayer>top</selectorLayer>
                 <selectorImage>./system/coversize/${systemCoverSize}.svg</selectorImage>
-                <selectorColor>${selectgameColor}</selectorColor>
-                <selectorRelativeScale>1.1</selectorRelativeScale>
+                <selectorColor>${selectsysColor}</selectorColor>
+                <selectorRelativeScale>1.</selectorRelativeScale>
                 <text>${system.fullName}</text>
                 <textColor>${backgroundColor}</textColor>
                 <scaleInwards>true</scaleInwards>
