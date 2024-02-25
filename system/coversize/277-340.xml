@@ -2,28 +2,33 @@
       <aspectRatio name="4:3">
             <view name="gamelist">
                   <grid name="grid">
-                        <itemSize>0.15625 0.1525735</itemSize>
+                    <itemSize>0.125 0.2045728</itemSize>			
+
                   </grid>
             </view>
       </aspectRatio>
       <aspectRatio name="16:9">
             <view name="gamelist">
                   <grid name="grid">
-                        <itemSize>0.1559 0.2029</itemSize>
+                    <itemSize>0.1249 0.272</itemSize>			
+			
+
                   </grid>
             </view>
       </aspectRatio>
       <aspectRatio name="16:10">
             <view name="gamelist">
                   <grid name="grid">
-                        <itemSize>0.15625 0.1830882</itemSize>
+                    <itemSize>0.125 0.2454873</itemSize>			
+
                   </grid>
             </view>
       </aspectRatio>
       <aspectRatio name="21:9">
             <view name="gamelist">
                   <grid name="grid">
-                        <itemSize>0.1041666 0.1780024</itemSize>			
+                    <itemSize>0.125 0.3580024</itemSize>			
+
                   </grid>
             </view>
       </aspectRatio>
