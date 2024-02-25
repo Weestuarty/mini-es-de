@@ -1028,7 +1028,7 @@
                 <text>${system.fullName}</text>
                 <textColor>${backgroundColor}</textColor>
                 <scaleInwards>true</scaleInwards>
-                
+                <imageFit>cover</imageFit>
             <fractionalRows>true</fractionalRows>
                 <textSelectedColor>${gamegridColor}</textSelectedColor>
                 <textRelativeScale>0.925</textRelativeScale>
