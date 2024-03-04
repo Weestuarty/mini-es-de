@@ -248,7 +248,7 @@
                 <gameCount>1</gameCount>
             </gameselector>
             <text name="gamecount">
-                <pos>0.37 0.175</pos>
+                <pos>0.51 0.175</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
@@ -259,40 +259,43 @@
                 <zIndex>40</zIndex>
             </text>
             <text name="gamesys">
-                <pos>0.2 0.125</pos>
+                <pos>0.5 0.125</pos>
                 <size>0.7 0.036</size>
+                <origin>0.5 0</origin>
                 <text>${systemName}</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
                 <fontSize>${sysfont}</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
+                <horizontalAlignment>center</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <text name="game">
-                <pos>0.2 0.175</pos>
+                <pos>0.49 0.175</pos>
                 <size>0.4 0.036</size>
+                <origin>1 0</origin>
                 <text>contains</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
                 <fontSize>${sysfont}</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
+                <horizontalAlignment>right</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <text name="game3">
-                <pos>0.2 0.275</pos>
+                <pos>0.475 0.275</pos>
                 <size>0.4 0.036</size>
+                <origin>1 0</origin>
                 <text>including:</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
                 <fontSize>${sysfont}</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
+                <horizontalAlignment>right</horizontalAlignment>
                 <letterCase>uppercase</letterCase>
                 <zIndex>40</zIndex>
             </text>
             <image name="gamecount2">
-                <pos>0.45 0.375</pos>
+                <pos>0.525 0.375</pos>
                 <origin>0 0.5</origin>
                 <maxSize>0.38 0.3</maxSize>
                 <imageType>marquee</imageType>
@@ -984,25 +987,27 @@
             </grid>
             
             <text name="gamecount">
-                <pos>0.37 0.175</pos>
+                <pos>0.51 0.175</pos>
                 <size>0.3 0.036</size>
             </text>
             <text name="gamesys">
-                <pos>0.2 0.125</pos>
-                <size>0.7 0.036</size>
+                <pos>0.5 0.125</pos>
+                <origin>0.5 0</origin>
+                <size>1 0.036</size>
             </text>
             <text name="game">
-                <pos>0.2 0.175</pos>
+                <pos>0.49 0.175</pos>
                 <size>0.4 0.036</size>
                 <text>contains</text>
             </text>
             <text name="game3">
-                <pos>0.2 0.275</pos>
+                <pos>0.475 0.275</pos>
                 <size>0.4 0.036</size>
+                <origin>1 0</origin>
                 <text>including:</text>
             </text>
             <image name="gamecount2">
-                <pos>0.4 0.3</pos>
+                <pos>0.525 0.3</pos>
                 <origin>0 0.5</origin>
                 <maxSize>0.35 0.16</maxSize>
                 <imageType>marquee</imageType>
