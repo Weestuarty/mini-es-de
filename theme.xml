@@ -9,8 +9,8 @@
     <include>./colors.xml</include>
     <include>./font.xml</include>
     <include>./system/metadata/_default.xml</include>
-   <include>./system/metadata/${system.theme}.xml</include>
-   <include>./system/custom/metadata/${system.theme}.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
        
@@ -261,7 +261,7 @@
             <text name="gamesys">
                 <pos>0.15 0.175</pos>
                 <size>0.7 0.036</size>
-                <systemdata>fullname</systemdata>
+                <text>${systemName}</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
                 <fontSize>${sysfont}</fontSize>
@@ -366,7 +366,7 @@
                 <selectedItemMargins>0.015 0.015</selectedItemMargins>
                 <maxItemCount>6.1</maxItemCount>
                 <unfocusedItemOpacity>.5</unfocusedItemOpacity>
-                <text>${system.fullName}</text>
+                <text>${systemName}</text>
                 <textColor>${sysmenuColor}</textColor>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.025</fontSize>
@@ -867,7 +867,7 @@
 
             <text name="sourceinfo">
                 <size>${titlelength}</size>
-                <metadata>systemFullname</metadata>
+                <text>${systemName}</text>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
                 <fontSize>${gametitle}</fontSize>
@@ -973,7 +973,7 @@
                 <selectorImage>./core/images/sysselect.png</selectorImage>
                 <selectorColor>${selectsysColor}</selectorColor>
                 <selectorRelativeScale>1</selectorRelativeScale>
-                <text>${system.fullName}</text>
+                <text>${systemName}</text>
                 <textColor>${backgroundColor}</textColor>
                 <textRelativeScale>1.02</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
@@ -1025,7 +1025,7 @@
                 <selectorImage>./system/coversize/${systemCoverSize}.svg</selectorImage>
                 <selectorColor>${selectsysColor}</selectorColor>
                 <selectorRelativeScale>1.</selectorRelativeScale>
-                <text>${system.fullName}</text>
+                <text>${systemName}</text>
                 <textColor>${backgroundColor}</textColor>
                 <scaleInwards>true</scaleInwards>
                 <imageFit>cover</imageFit>
@@ -1071,7 +1071,7 @@
             
             <text name="sourceinfo">
                 <size>0.34 0.05</size>
-                <metadata>systemFullname</metadata>
+                <text>${systemName}</text>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
                 <fontSize>${gametitle}</fontSize>
