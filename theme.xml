@@ -248,7 +248,7 @@
                 <gameCount>1</gameCount>
             </gameselector>
             <text name="gamecount">
-                <pos>0.15 0.275</pos>
+                <pos>0.37 0.175</pos>
                 <size>0.3 0.036</size>
                 <systemdata>gamecountGames</systemdata>
                 <color>${primaryColor}</color>
@@ -259,7 +259,7 @@
                 <zIndex>40</zIndex>
             </text>
             <text name="gamesys">
-                <pos>0.15 0.175</pos>
+                <pos>0.2 0.125</pos>
                 <size>0.7 0.036</size>
                 <text>${systemName}</text>
                 <color>${primaryColor}</color>
@@ -270,7 +270,7 @@
                 <zIndex>40</zIndex>
             </text>
             <text name="game">
-                <pos>0.15 0.225</pos>
+                <pos>0.2 0.175</pos>
                 <size>0.4 0.036</size>
                 <text>contains</text>
                 <color>${primaryColor}</color>
@@ -281,7 +281,7 @@
                 <zIndex>40</zIndex>
             </text>
             <text name="game3">
-                <pos>0.15 0.4</pos>
+                <pos>0.2 0.275</pos>
                 <size>0.4 0.036</size>
                 <text>including:</text>
                 <color>${primaryColor}</color>
@@ -292,9 +292,9 @@
                 <zIndex>40</zIndex>
             </text>
             <image name="gamecount2">
-                <pos>0.575 0.4</pos>
-                <origin>0.5 0.5</origin>
-                <maxSize>0.38 0.22</maxSize>
+                <pos>0.45 0.375</pos>
+                <origin>0 0.5</origin>
+                <maxSize>0.38 0.3</maxSize>
                 <imageType>marquee</imageType>
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
@@ -984,27 +984,27 @@
             </grid>
             
             <text name="gamecount">
-                <pos>0.15 0.25</pos>
+                <pos>0.37 0.175</pos>
                 <size>0.3 0.036</size>
             </text>
             <text name="gamesys">
-                <pos>0.15 0.15</pos>
+                <pos>0.2 0.125</pos>
                 <size>0.7 0.036</size>
             </text>
             <text name="game">
-                <pos>0.15 0.2</pos>
+                <pos>0.2 0.175</pos>
                 <size>0.4 0.036</size>
                 <text>contains</text>
             </text>
             <text name="game3">
-                <pos>0.15 0.35</pos>
+                <pos>0.2 0.275</pos>
                 <size>0.4 0.036</size>
                 <text>including:</text>
             </text>
             <image name="gamecount2">
-                <pos>0.575 0.29</pos>
-                <origin>0.5 0.5</origin>
-                <maxSize>0.35 0.2</maxSize>
+                <pos>0.4 0.3</pos>
+                <origin>0 0.5</origin>
+                <maxSize>0.35 0.16</maxSize>
                 <imageType>marquee</imageType>
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
