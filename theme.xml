@@ -1092,7 +1092,7 @@
                 <pos>0.185 0.33</pos>
                 <maxSize>0.34 0.285</maxSize>
                 <origin>0.5 0.5</origin>
-                <imageType>titlescreen</imageType>
+                <imageType>marquee, titlescreen</imageType>
                 <interpolation>nearest</interpolation>
                 <pillarboxes>false</pillarboxes>
                 <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
