@@ -1043,15 +1043,7 @@
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
             </grid>
-            <image name="desc">
-                <pos>0.185 0.5</pos>
-                <size>0.36 0.32</size>
-                <origin>0.5 0</origin>
-                <path>./core/images/metabox1.svg</path>
-                <color>${primaryColor}</color>
-                <zIndex>26</zIndex>
-            </image>
-
+            
             <text name="description1">
                 <size>0.33 0.29</size>
                 <metadata>description</metadata>
