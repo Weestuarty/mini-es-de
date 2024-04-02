@@ -968,6 +968,7 @@
                 <pos>0.0 0.4</pos>
                 <size>1 .6</size>
                 <staticImage>./core/banner/${system.theme}.png</staticImage>
+                <backgroundImage>./core/banner/blank.png</backgroundImage>
                 <itemSize>${gridSize}</itemSize>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -977,10 +978,10 @@
                 <selectorColor>${selectsysColor}</selectorColor>
                 <selectorRelativeScale>1</selectorRelativeScale>
                 <text>${systemName}</text>
-                <textColor>${backgroundColor}</textColor>
+                <textColor>${selectsysColor}</textColor>
                 <textRelativeScale>1.02</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.02</fontSize>
+                <fontSize>0.05</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>1.1</lineSpacing>
                 <zIndex>29</zIndex>
@@ -1022,6 +1023,7 @@
                 <size>0.625 0.8</size>
                 <itemSpacing>0.0 0.0</itemSpacing>
                 <imageType>cover</imageType>
+                <backgroundImage>./core/banner/blank.png</backgroundImage>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1.2</itemScale>
                 <systemNameSuffix>false</systemNameSuffix>
@@ -1031,14 +1033,14 @@
                 <selectorColor>${selectsysColor}</selectorColor>
                 <selectorRelativeScale>1.</selectorRelativeScale>
                 <text>${systemName}</text>
-                <textColor>${backgroundColor}</textColor>
+                <textColor>${selectsysdColor}</textColor>
                 <scaleInwards>true</scaleInwards>
                 <imageFit>cover</imageFit>
             <fractionalRows>true</fractionalRows>
                 <textSelectedColor>${gamegridColor}</textSelectedColor>
                 <textRelativeScale>0.925</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.018</fontSize>
+                <fontSize>0.05</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
