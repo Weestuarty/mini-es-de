@@ -982,7 +982,7 @@
                 <textSelectedColor>${selectsysColor}</textSelectedColor>
                 <textRelativeScale>1.02</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.05</fontSize>
+                <fontSize>0.04</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>1.1</lineSpacing>
                 <zIndex>29</zIndex>
@@ -1041,7 +1041,7 @@
                 <textSelectedColor>${selectsysColor}</textSelectedColor>
                 <textRelativeScale>0.925</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
-                <fontSize>0.05</fontSize>
+                <fontSize>0.04</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
