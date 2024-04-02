@@ -1033,7 +1033,7 @@
                 <selectorColor>${selectsysColor}</selectorColor>
                 <selectorRelativeScale>1.</selectorRelativeScale>
                 <text>${systemName}</text>
-                <textColor>${selectsysdColor}</textColor>
+                <textColor>${selectsysColor}</textColor>
                 <scaleInwards>true</scaleInwards>
                 <imageFit>cover</imageFit>
             <fractionalRows>true</fractionalRows>
