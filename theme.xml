@@ -979,7 +979,7 @@
                 <selectorRelativeScale>1</selectorRelativeScale>
                 <text>${systemName}</text>
                 <textColor>${gamegridColor}</textColor>
-                <textSelectedColor>${sysselectColor}</textSelectedColor>
+                <textSelectedColor>${selectsysColor}</textSelectedColor>
                 <textRelativeScale>1.02</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.05</fontSize>
@@ -1038,7 +1038,7 @@
                 <scaleInwards>true</scaleInwards>
                 <imageFit>cover</imageFit>
             <fractionalRows>true</fractionalRows>
-                <textSelectedColor>${sysselectColor}</textSelectedColor>
+                <textSelectedColor>${selectsysColor}</textSelectedColor>
                 <textRelativeScale>0.925</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.05</fontSize>
