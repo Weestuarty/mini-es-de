@@ -299,6 +299,7 @@
                 <origin>0 0.5</origin>
                 <maxSize>0.38 0.3</maxSize>
                 <imageType>marquee</imageType>
+                <interpolation>linear</interpolation>
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
             </image>
@@ -813,6 +814,7 @@
                 <origin>0.5 0.5</origin>
                 <maxSize>0.225 0.19</maxSize>
                 <imageType>marquee</imageType>
+                <interpolation>linear</interpolation>
                 <zIndex>26</zIndex>
             </image>
             <image name="cover">
@@ -1013,6 +1015,7 @@
                 <origin>0 0.5</origin>
                 <maxSize>0.35 0.16</maxSize>
                 <imageType>marquee</imageType>
+                <interpolation>linear</interpolation>
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
             </image>
@@ -1088,7 +1091,7 @@
                 <maxSize>0.34 0.285</maxSize>
                 <origin>0.5 0.5</origin>
                 <imageType>marquee, titlescreen</imageType>
-                <interpolation>nearest</interpolation>
+                <interpolation>linear</interpolation>
                 <pillarboxes>false</pillarboxes>
                 <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
                 <delay>1.7</delay>
