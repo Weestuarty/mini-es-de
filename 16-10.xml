@@ -23,6 +23,7 @@
             <text name="gamesys">
                 <pos>0.15 0.175</pos>
                 <size>0.7 0.036</size>
+                <origin>0 0</origin>
                 <systemdata>fullname</systemdata>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
@@ -34,6 +35,7 @@
             <text name="game">
                 <pos>0.15 0.225</pos>
                 <size>0.4 0.036</size>
+                <origin>0 0</origin>
                 <text>contains</text>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
@@ -46,6 +48,7 @@
                 <pos>0.15 0.4</pos>
                 <size>0.4 0.036</size>
                 <text>including:</text>
+                <origin>0 0</origin>
                 <color>${primaryColor}</color>
                 <fontPath>${altFont}</fontPath>
                 <fontSize>0.05</fontSize>
