@@ -51,7 +51,7 @@
                 <sysfont>0.1</sysfont>
                 <helpfont>0.035</helpfont>
                 <helpfont2>0.0275</helpfont2>
-                <gridSize>0.1666 0.3</gridSize>
+                <gridSize>0.125 0.24</gridSize>
                 <gameGrid>0.333 0.192</gameGrid>
                 <metaDesc>0.045</metaDesc>
                 <gamevis>false</gamevis>
