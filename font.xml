@@ -24,6 +24,7 @@
                 <gamenamebox>0.16 0.11</gamenamebox>
                 <titlelength>0.36 0.11</titlelength>
                 <gamenamepos>0.65 0.22</gamenamepos>
+                <abovesize>0.44 0.06</abovesize>
             </variables>
         </fontSize>
         <fontSize name="large">
@@ -41,6 +42,7 @@
                 <gamenamebox>0.35 0.11</gamenamebox>
                 <titlelength>0.45 0.11</titlelength>
                 <gamenamepos>0.65 0.22</gamenamepos>
+                <abovesize>0.44 0.07</abovesize>
             </variables>
         </fontSize>
 
@@ -58,6 +60,7 @@
                 <gamenamebox>0.35 0.11</gamenamebox>
                 <titlelength>0.6 0.11</titlelength>
                 <gamenamepos>0.65 0.25</gamenamepos>
+                <abovesize>0.44 0.085</abovesize>
             </variables>
         </fontSize>
     </variant>

@@ -8,5 +8,5 @@
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
       <systemHardwareType>Collection</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
 </theme>

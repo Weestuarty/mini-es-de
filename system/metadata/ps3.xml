@@ -9,11 +9,11 @@ The console was first officially announced at E3 2005, and was released at the e
       <systemReleaseDate>2006-11-11</systemReleaseDate>
       <systemReleaseDateFormated>November 11, 2006</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
-      <systemCoverSize>3-4</systemCoverSize>
+      <systemCoverSize>135-172</systemCoverSize>
       <systemColor>367EDB</systemColor>
       <systemColorPalette1>94B8F2</systemColorPalette1>
       <systemColorPalette2>1A15FF</systemColorPalette2>
       <systemColorPalette3>0095D5</systemColorPalette3>
       <systemColorPalette4>3DD3C8</systemColorPalette4>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
 </theme>

@@ -7,6 +7,8 @@
       <systemReleaseDate>Various</systemReleaseDate>
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
       <systemHardwareType>Collection</systemHardwareType>
-      <systemCoverSize>1-1</systemCoverSize>
-   </variables>
+      <systemCoverSize>112-67</systemCoverSize>
+	  <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>    </variables>
+
+
 </theme>

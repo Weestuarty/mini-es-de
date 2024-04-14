@@ -27,6 +27,9 @@
     <aspectRatio name="21:9">
         <include>./21-9.xml</include>
     </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <include>./19-5-9.xml</include>
+    </aspectRatio>
 
     <variant name="Snes, Snesgrid">
         <view name="system, gamelist">
@@ -305,8 +308,8 @@
             </image>
 
             <helpsystem name="help">
-                <pos>.73 0.95</pos>
-                <origin>1 1</origin>
+                <pos>.5 0.95</pos>
+                <origin>0.5 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
                 <iconColor>${helpColor}</iconColor>
@@ -315,7 +318,7 @@
         </view>
         <view name="gamelist">
             <helpsystem name="help">
-                <pos>0.425 0.945</pos>
+                <pos>0.5 0.945</pos>
                 <origin>0.5 1</origin>
                 <fontPath>${primaryFont}</fontPath>
                 <textColor>${helpColor}</textColor>
@@ -1022,9 +1025,10 @@
         </view>
         <view name="gamelist">
             <grid name="system_grid">
+                <itemSize>${gridItemSize}</itemSize>
                 <origin>0.5 0</origin>
-                <pos>0.678 0.1</pos>
-                <size>0.625 0.8</size>
+                <pos>0.725 0.1</pos>
+                <size>0.55 0.8</size>
                 <itemSpacing>0.0 0.0</itemSpacing>
                 <imageType>cover</imageType>
                 <backgroundImage>./core/banner/blank.png</backgroundImage>
@@ -1051,29 +1055,29 @@
             </grid>
             
             <text name="description1">
-                <size>0.33 0.29</size>
+                <size>0.43 0.29</size>
                 <metadata>description</metadata>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>${metaDesc}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <verticalAlignment>bottom</verticalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.185 0.52</pos>
+                <pos>0.225 0.52</pos>
                 <origin>0.5 0</origin>
                 <zIndex>46</zIndex>
             </text>
             <image name="above">
-                <pos>0.185 0.11</pos>
-                <origin>0.5 0</origin>
-                <size>0.36 0.06</size>
+                <pos>0.225 0.14</pos>
+                <origin>0.5 0.5</origin>
+                <size>${abovesize}</size>
                 <path>./core/images/rec.svg</path>
                 <color>${primaryColor}</color>
                 <zIndex>26</zIndex>
-                <visible>${gamevis}</visible>
+                <visible>true</visible>
             </image>
             
             <text name="sourceinfo">
-                <size>0.34 0.05</size>
+                <size>0.43 0.05</size>
                 <text>${systemName}</text>
                 <fontPath>${primaryFont}</fontPath>
                 <letterCase>capitalize</letterCase>
@@ -1082,13 +1086,13 @@
                 <verticalAlignment>center</verticalAlignment>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${primaryColor}</color>
-                <pos>0.185 0.14</pos>
+                <pos>0.225 0.14</pos>
                 <origin>0.5 0.5</origin>
             </text>
             
             <video name="md_video">
-                <pos>0.185 0.33</pos>
-                <maxSize>0.34 0.285</maxSize>
+                <pos>0.225 0.34</pos>
+                <maxSize>0.4 0.325</maxSize>
                 <origin>0.5 0.5</origin>
                 <imageType>marquee, titlescreen</imageType>
                 <interpolation>linear</interpolation>
@@ -1104,8 +1108,8 @@
            
             
             <badges name="all">
-                <pos>0.185 0.82</pos>
-                <size>0.3 .15</size>
+                <pos>0.225 0.82</pos>
+                <size>0.4 .15</size>
                 <origin>0.5 0</origin>
                 <direction>row</direction>
                 <lines>2</lines>

@@ -12,6 +12,6 @@
       <systemColorPalette1>6c00ff</systemColorPalette1>
       <systemColorPalette2>ffc833</systemColorPalette2>
       <systemColorPalette3>6c00ff</systemColorPalette3>
-      <systemColorPalette4>ffc833</systemColorPalette4>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>
+      <systemColorPalette4>ffc833</systemColorPalette4>    </variables>
 </theme>

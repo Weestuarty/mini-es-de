@@ -17,5 +17,5 @@ Differentiated from other emulators by a very large number of supported systems,
       <systemColorPalette2>FE7B07</systemColorPalette2>
       <systemColorPalette3>231F20</systemColorPalette3>
       <systemColorPalette4>FFFFFF</systemColorPalette4>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
 </theme>

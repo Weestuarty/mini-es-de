@@ -12,8 +12,8 @@ Internally, the Plus/4 shared the same basic architecture as the lower-end Commo
       <systemCoverSize>3-4</systemCoverSize>
       <systemColor>5891AE</systemColor>
       <systemColorPalette1>BBAD93</systemColorPalette1>
+	  <systemCartSize>1-1</systemCartSize>
       <systemColorPalette2>968971</systemColorPalette2>
       <systemColorPalette3>FD4120</systemColorPalette3>
-      <systemColorPalette4>00A0C6</systemColorPalette4>
-   </variables>
+      <systemColorPalette4>00A0C6</systemColorPalette4>    </variables>
 </theme>

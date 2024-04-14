@@ -6,7 +6,12 @@
       <systemReleaseYear>Various</systemReleaseYear>
       <systemReleaseDate>Various</systemReleaseDate>
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
-      <systemHardwareType>Collection</systemHardwareType>
+      <systemHardwareType>All</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
+      <systemCartSize>1-1</systemCartSize>
+
+
    </variables>
+
+
 </theme>

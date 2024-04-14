@@ -15,5 +15,5 @@ The NAOMI 2 is significantly more powerful than the NAOMI, including a dual CPU 
       <systemColorPalette2>FD95B0</systemColorPalette2>
       <systemColorPalette3>48B3EB</systemColorPalette3>
       <systemColorPalette4>35FF90</systemColorPalette4>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
 </theme>

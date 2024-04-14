@@ -1,0 +1,76 @@
+<theme>
+
+   <aspectRatio name="16:9">
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+
+   <aspectRatio name="16:10">
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <aspectRatio name="4:3">
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <aspectRatio name="19.5:9">
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize><!----></gridItemSize>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+</theme>

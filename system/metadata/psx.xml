@@ -15,5 +15,5 @@ PlayStation (Japanese: プレイステーション, Hepburn: Pureisutēshon, off
       <systemColorPalette2>F1C002</systemColorPalette2>
       <systemColorPalette3>00A79B</systemColorPalette3>
       <systemColorPalette4>326BB1</systemColorPalette4>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
 </theme>

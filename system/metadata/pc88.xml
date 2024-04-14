@@ -15,5 +15,5 @@ The PC-8800 series sold extremely well and became one of the four major Japanese
       <systemColorPalette2>342B22</systemColorPalette2>
       <systemColorPalette3>938CAA</systemColorPalette3>
       <systemColorPalette4>77B7C6</systemColorPalette4>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
 </theme>
