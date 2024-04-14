@@ -1030,7 +1030,7 @@
                 <pos>0.725 0.1</pos>
                 <size>0.55 0.8</size>
                 <itemSpacing>0.0 0.0</itemSpacing>
-                <imageType>cover</imageType>
+                <imageType>fill</imageType>
                 <backgroundImage>./core/banner/blank.png</backgroundImage>
                 <imageRelativeScale>1</imageRelativeScale>
                 <itemScale>1.2</itemScale>
