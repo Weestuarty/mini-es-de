@@ -6,20 +6,6 @@
 FinalBurn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers.
 
 The reason for the separation of the older branch, FB Alpha, and new spin-off branch, FB Neo, was due to an apparent disagreement between one Barry Harris and the rest of the main FBA team members over a licensing issue.</systemDescription>
-<<<<<<< Updated upstream
-      <systemManufacturer>FBA Team</systemManufacturer>
-      <systemReleaseYear>2002</systemReleaseYear>
-      <systemReleaseDate>2002</systemReleaseDate>
-      <systemReleaseDateFormated>2002</systemReleaseDateFormated>
-      <systemHardwareType>Emulator</systemHardwareType>
-      <systemCoverSize>3-4</systemCoverSize>
-      <systemColor>5B60B7</systemColor>
-      <systemColorPalette1>C0392B</systemColorPalette1>
-      <systemColorPalette2>CF8A61</systemColorPalette2>
-      <systemColorPalette3>231F20</systemColorPalette3>
-      <systemColorPalette4>FFFFFF</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
-=======
         <systemManufacturer>FBA Team</systemManufacturer>
         <systemReleaseYear>2002</systemReleaseYear>
         <systemReleaseDate>2002</systemReleaseDate>
@@ -173,5 +159,4 @@ FinalBurn Neo 是 FinalBurn Alpha 模拟器的主动分叉，由许多前 FBA �
             <systemHardwareType>仿真器</systemHardwareType>
         </variables>
     </language>
->>>>>>> Stashed changes
 </theme>

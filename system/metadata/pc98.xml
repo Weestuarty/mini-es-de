@@ -6,20 +6,6 @@
 The first model was a 16-bit architecture with an Intel 8086 processor clocked at 5 MHz and 128 KB of RAM. It shipped with graphics cards capable of displaying 8 colors at 640x400 resolution - a clear performance differentiator compared to PCs of the time.
 
 Initially conceived as a solution for industrial and office applications, by 1987 the PC-9801 series captured nearly 90% of the Japanese personal computer market. Over time, as power increased and graphics and sound effects were appreciated by home users (especially gamers), it also became popular for non-commercial applications - the Touhou Project series, for example, made its debut.</systemDescription>
-<<<<<<< Updated upstream
-      <systemManufacturer>NEC</systemManufacturer>
-      <systemReleaseYear>1982</systemReleaseYear>
-      <systemReleaseDate>1982-10-01</systemReleaseDate>
-      <systemReleaseDateFormated>October 1, 1982</systemReleaseDateFormated>
-      <systemHardwareType>Computer</systemHardwareType>
-      <systemCoverSize>3-4</systemCoverSize>
-      <systemColor>5185B2</systemColor>
-      <systemColorPalette1>951610</systemColorPalette1>
-      <systemColorPalette2>16643C</systemColorPalette2>
-      <systemColorPalette3>00499A</systemColorPalette3>
-      <systemColorPalette4>3B3431</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
-=======
         <systemManufacturer>NEC</systemManufacturer>
         <systemReleaseYear>1982</systemReleaseYear>
         <systemReleaseDate>1982-10-01</systemReleaseDate>
@@ -173,5 +159,4 @@ PC-9801 系列最初被视为工业和办公应用的解决方案，到 1987 年
             <systemHardwareType>计算机</systemHardwareType>
         </variables>
     </language>
->>>>>>> Stashed changes
 </theme>

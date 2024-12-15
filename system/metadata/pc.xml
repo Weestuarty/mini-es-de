@@ -6,20 +6,6 @@
 The machine was based on open architecture and third-party peripherals. Over time, expansion cards and software technology increased to support it.
 
 The PC had a substantial influence on the personal computer market. The specifications of the IBM PC became one of the most popular computer design standards in the world. The only significant competition it faced from a non-compatible platform throughout the 1980s was from the Apple Macintosh product line. The majority of modern personal computers are distant descendants of the IBM PC.</systemDescription>
-<<<<<<< Updated upstream
-      <systemManufacturer>IBM</systemManufacturer>
-      <systemReleaseYear>1981</systemReleaseYear>
-      <systemReleaseDate>1981-08-12</systemReleaseDate>
-      <systemReleaseDateFormated>August 12, 1981</systemReleaseDateFormated>
-      <systemHardwareType>Computer</systemHardwareType>
-      <systemCoverSize>3-4</systemCoverSize>
-      <systemColor>3161BC</systemColor>
-      <systemColorPalette1>1F70C1</systemColorPalette1>
-      <systemColorPalette2>FFFFFF</systemColorPalette2>
-      <systemColorPalette3>666870</systemColorPalette3>
-      <systemColorPalette4>201D1D</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
-=======
         <systemManufacturer>IBM</systemManufacturer>
         <systemReleaseYear>1981</systemReleaseYear>
         <systemReleaseDate>1981-08-12</systemReleaseDate>
@@ -173,5 +159,4 @@ PC 对个人电脑市场产生了重大影响。IBM PC 的规格成为世界上�
             <systemHardwareType>计算机</systemHardwareType>
         </variables>
     </language>
->>>>>>> Stashed changes
 </theme>

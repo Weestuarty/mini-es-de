@@ -1042,11 +1042,7 @@
                 <textColor>${gamegridColor}</textColor>
                 <scaleInwards>true</scaleInwards>
                 <imageFit>fill</imageFit>
-<<<<<<< Updated upstream
-            <fractionalRows>true</fractionalRows>
-=======
                 <fractionalRows>true</fractionalRows>
->>>>>>> Stashed changes
                 <textSelectedColor>${selectsysColor}</textSelectedColor>
                 <textRelativeScale>0.925</textRelativeScale>
                 <fontPath>${primaryFont}</fontPath>

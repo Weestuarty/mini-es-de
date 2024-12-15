@@ -6,20 +6,6 @@
 In the early 1970s, Magnavox pioneered the home video game industry by successfully bringing the first home console to market, the Odyssey, which was quickly followed by a number of later models, each with a few technological improvements. In 1978, Magnavox, now a subsidiary of North American Philips, decided to release an all-new successor, Odyssey 2.
 
 In 2009, the video game website IGN named the Odyssey 2 the 21st greatest video game console, out of its list of 25.</systemDescription>
-<<<<<<< Updated upstream
-      <systemManufacturer>Philips</systemManufacturer>
-      <systemReleaseYear>1978</systemReleaseYear>
-      <systemReleaseDate>1978-12-01</systemReleaseDate>
-      <systemReleaseDateFormated>December 1, 1978</systemReleaseDateFormated>
-      <systemHardwareType>Console</systemHardwareType>
-      <systemCoverSize>3-4</systemCoverSize>
-      <systemColor>f08211</systemColor>
-      <systemColorPalette1>F6DD08</systemColorPalette1>
-      <systemColorPalette2>800000</systemColorPalette2>
-      <systemColorPalette3>FF0000</systemColorPalette3>
-      <systemColorPalette4>4C504E</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
-=======
         <systemManufacturer>Philips</systemManufacturer>
         <systemReleaseYear>1978</systemReleaseYear>
         <systemReleaseDate>1978-12-01</systemReleaseDate>
@@ -173,5 +159,4 @@ I början av 1970-talet var Magnavox pionjär inom videospel för hemmabruk geno
             <systemHardwareType>控制台</systemHardwareType>
         </variables>
     </language>
->>>>>>> Stashed changes
 </theme>

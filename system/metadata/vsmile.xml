@@ -6,20 +6,6 @@
 Several variants of the V.Smile console are sold including handheld versions, or models with added functionality such as touch tablet integrated controllers or microphones. The V-Motion is a major variant with its own software lineup that includes motion sensitive controllers, and has Smartriges designed to take advantage of motion-related "active learning". The V-Motion and Smartridges however, are fully backwards compatible with other V.Smile variants and V.Smile Smartridges, and a V-Motion Smartridge can also be played on V.Smile console or handheld, albeit with limited functionality. However, in 2010, the new and old models of the V.Smile were discontinued. VTech still made games for the V.Smile until 2012.
 
 Some key differentiators between systems and the ability to fully utilize all game functions include the options of a microphone, touch tablet, additional joystick port (for 2-player gameplay), stylus-enhanced controller, or motion sensitive game pad (with V-Motion).</systemDescription>
-<<<<<<< Updated upstream
-      <systemManufacturer>VTech</systemManufacturer>
-      <systemReleaseYear>2004</systemReleaseYear>
-      <systemReleaseDate>2004-08-04</systemReleaseDate>
-      <systemReleaseDateFormated>August 4, 2004</systemReleaseDateFormated>
-      <systemHardwareType>Console</systemHardwareType>
-      <systemCoverSize>3-4</systemCoverSize>
-      <systemColor>544D77</systemColor>
-      <systemColorPalette1>007CB3</systemColorPalette1>
-      <systemColorPalette2>8A6AA2</systemColorPalette2>
-      <systemColorPalette3>CBCFD0</systemColorPalette3>
-      <systemColorPalette4>F0973A</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
-=======
         <systemManufacturer>VTech</systemManufacturer>
         <systemReleaseYear>2004</systemReleaseYear>
         <systemReleaseDate>2004-08-04</systemReleaseDate>
@@ -173,5 +159,4 @@ V.Smile控制台有几种变体，包括掌上型或带有触摸板集成控制�
             <systemHardwareType>控制台</systemHardwareType>
         </variables>
     </language>
->>>>>>> Stashed changes
 </theme>

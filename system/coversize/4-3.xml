@@ -32,11 +32,7 @@
       </fontSize>
       <fontSize name="x-large">
          <variables>
-<<<<<<< Updated upstream
-            <gridItemSize>0.25 0.3</gridItemSize><!-- 288 288 -->
-=======
             <gridItemSize>0.25 0.4</gridItemSize><!-- 288 288 -->
->>>>>>> Stashed changes
          </variables>
       </fontSize>
    </aspectRatio>
@@ -77,24 +73,4 @@
       </fontSize>
    </aspectRatio>
 
-<<<<<<< Updated upstream
-   <aspectRatio name="21:9">
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.135 0.23625</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gridItemSize>0.18 0.315</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <gridItemSize>0.27 0.4725</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-=======
->>>>>>> Stashed changes
 </theme>

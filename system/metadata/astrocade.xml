@@ -5,20 +5,6 @@
 It was originally announced as the "Bally Home Library Computer" in October 1977 and initially made available for mail order in December 1977. But due to production delays, the units were first released to stores in April 1978 and its branding changed to "Bally Professional Arcade".
 
 It was marketed only for a limited time before Bally decided to exit the market. The rights were later picked up by a third-party company, who re-released it and sold it until around 1984. The Astrocade is particularly notable for its very powerful graphics capabilities for the time of release and for the difficulty in accessing those capabilities.</systemDescription>
-<<<<<<< Updated upstream
-      <systemManufacturer>Bally</systemManufacturer>
-      <systemReleaseYear>1977</systemReleaseYear>
-      <systemReleaseDate>1977-12-01</systemReleaseDate>
-      <systemReleaseDateFormated>December 1, 1977</systemReleaseDateFormated>
-      <systemHardwareType>Console</systemHardwareType>
-      <systemCoverSize>1-1</systemCoverSize>
-      <systemColor>D59334</systemColor>
-      <systemColorPalette1>F2B101</systemColorPalette1>
-      <systemColorPalette2>FA0105</systemColorPalette2>
-      <systemColorPalette3>F8F6EA</systemColorPalette3>
-      <systemColorPalette4>C47401</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
-=======
         <systemManufacturer>Bally</systemManufacturer>
         <systemReleaseYear>1977</systemReleaseYear>
         <systemReleaseDate>1977-12-01</systemReleaseDate>
@@ -159,5 +145,4 @@ Ballyが市場からの撤退を決定するまでの限られた期間のみ販
             <systemHardwareType>控制台</systemHardwareType>
         </variables>
     </language>
->>>>>>> Stashed changes
 </theme>

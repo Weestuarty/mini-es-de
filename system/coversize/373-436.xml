@@ -72,26 +72,5 @@
          </variables>
       </fontSize>
    </aspectRatio>
-<<<<<<< Updated upstream
-   
-   <aspectRatio name="21:9">
-      <fontSize name="medium">
-         <variables>
-            <gridItemSize>0.108 0.29456</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gridItemSize>0.135 0.36820</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-      <fontSize name="x-large">
-         <variables>
-            <gridItemSize>0.18 0.49094</gridItemSize><!-- 256 350 -->
-         </variables>
-      </fontSize>
-   </aspectRatio>
-=======
->>>>>>> Stashed changes
 
 </theme>
