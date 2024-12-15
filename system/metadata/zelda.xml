@@ -1,0 +1,15 @@
+<theme>
+   <variables>
+      <systemDescription>The Legend of Zelda[a] is an action-adventure game franchise created by the Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, although some portable installments and re-releases have been outsourced to Flagship, Vanpool, and Grezzo. The gameplay incorporates action-adventure and elements of action RPG games.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1986</systemReleaseYear>
+      <systemReleaseDate>&#032;</systemReleaseDate>
+      <systemReleaseDateFormated>&#032;</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemColor>777777</systemColor>
+      <systemColorPalette1>568233</systemColorPalette1>
+      <systemColorPalette2>79777A</systemColorPalette2>
+      <systemColorPalette3>613f19</systemColorPalette3>
+      <systemColorPalette4>cc9e48</systemColorPalette4>
+   </variables>
+</theme>

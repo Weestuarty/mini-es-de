@@ -72,6 +72,7 @@
          </variables>
       </fontSize>
    </aspectRatio>
+<<<<<<< Updated upstream
    
    <aspectRatio name="21:9">
       <fontSize name="medium">
@@ -90,5 +91,7 @@
          </variables>
       </fontSize>
    </aspectRatio>
+=======
+>>>>>>> Stashed changes
 
 </theme>
