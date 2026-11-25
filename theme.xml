@@ -307,6 +307,19 @@
                 <zIndex>40</zIndex>
                 <gameselectorEntry>1</gameselectorEntry>
             </image>
+            <text name="system-description">
+                <pos>0.5 0.7</pos>
+                <size>0.88 0.18</size>
+                <origin>0.5 0</origin>
+                <text>${systemDescription}</text>
+                <container>true</container>
+                <color>${primaryColor}</color>
+                <fontPath>${altFont}</fontPath>
+                <fontSize>${sysfont}</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <verticalAlignment>top</verticalAlignment>
+                <zIndex>40</zIndex>
+            </text>
 
             <helpsystem name="help">
                 <pos>.5 0.95</pos>
